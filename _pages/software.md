@@ -1,11 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of cool projects.
+title: software
+permalink: /software/
+description: A growing collection of cool software/tools.
 nav: true
-nav_order: 3
-display_categories: [Nature Language Processing, Neural Network, Education, Computer Vision and Multimedia]
+display_categories: [work, fun]
 horizontal: false
 ---
 
