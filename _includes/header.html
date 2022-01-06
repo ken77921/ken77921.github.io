@@ -35,6 +35,8 @@
               </li>
               {% if site.blog_name %}
               <!-- Blog -->
+              <!-- 01.05.2022[CY] rmv blog tab-->
+              <!--
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">blog
                   {%- if page.title == "blog" -%}
@@ -43,6 +45,7 @@
                 </a>
               </li>
               {%- endif %}
+              -->
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "title" -%}
