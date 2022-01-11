@@ -4,7 +4,7 @@ title: software
 permalink: /software/
 description: A growing collection of cool software/tools.
 nav: true
-display_categories: [Natural language processing, Computer Vision and Multimedia]
+display_categories: [Natural Language Processing, Computer Vision and Multimedia]
 horizontal: false
 ---
 
