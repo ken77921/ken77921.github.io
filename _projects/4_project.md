@@ -15,7 +15,7 @@ category: Computer Vision and Multimedia
 </p>
 <p>
     <h3 style="text-align: left; color: #666699">Efficient Hierarchical Graph-based Video Segmentation</h3> <a href="http://mml.citi.sinica.edu.tw/papers/GBH_code_ACCV_2014">(C/C++ for Windows)</a>
-    ~10 times faster than the original from <a href="https://cse.buffalo.edu/~jcorso/r/supervoxels/">[LIBSVX]</a>
+    ~10 times faster than the original from <a href="https://cse.buffalo.edu/~jcorso/r/supervoxels/">LIBSVX</a>
 </p>
 
 
