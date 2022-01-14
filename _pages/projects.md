@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of cool projects.
 nav: true
 display_categories: [Natural language processing, Neural Network, Education, Computer Vision and Multimedia]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/projects.md -->
