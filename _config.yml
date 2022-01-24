@@ -107,7 +107,8 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    #permalink: /projects/:path/
+    permalink: /research/:path/
 
 news_limit: 5
 
@@ -203,8 +204,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Chang
+  first_name: Haw-Shiuan
 
   style: apa
   locale: en
