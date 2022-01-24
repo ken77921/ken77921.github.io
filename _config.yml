@@ -174,7 +174,8 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    #permalink: /projects/:path/
+    permalink: /research/:path/
 
 announcements:
   enabled: true
@@ -275,8 +276,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: Chang
+  first_name: Haw-Shiuan
 
   style: apa
   locale: en
