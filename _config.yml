@@ -107,8 +107,10 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    #permalink: /projects/:path/
-    permalink: /research/:path/
+    permalink: /projects/:path/
+  software:
+    output: true
+    permalink: /software/:path/
 
 news_limit: 5
 
