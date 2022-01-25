@@ -21,20 +21,18 @@ horizontal: false
 
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
-  <!-- CY 01.24.21: new sw collection -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    
-    {%- for software in sorted_projects -%}
+    {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for software in sorted_projects -%}
-      {% include software.html %}
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -42,20 +40,20 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+  {%- assign sorted_projects = site.software | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for software in sorted_projects -%}
+    {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for software in sorted_projects -%}
-      {% include software.html %}
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
