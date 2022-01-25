@@ -33,7 +33,7 @@ horizontal: false
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
+    {%- for software in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
@@ -47,14 +47,14 @@ horizontal: false
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    {%- for software in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
+    {%- for software in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
