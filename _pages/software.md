@@ -14,14 +14,19 @@ horizontal: false
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category" style="text-align: left; color: #666699">{{ category }}</h2>
+  
+  <!-- CY 01.24.21: new sw collection -->
   {%- assign categorized_projects = site.software | where: "category", category -%}
   <!-- {%- assign categorized_projects = site.projects | where: "category", category -%} -->
+
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
+  <!-- CY 01.24.21: new sw collection -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    
+    {%- for software in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
