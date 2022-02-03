@@ -4,7 +4,7 @@ title: Optical Flow
 description: Code for Optical Flow
 img: assets/img/
 importance: 6
-category: Computer vision and multimedia
+category: Natural language processing
 ---
 
 <p>
