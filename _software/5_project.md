@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Clutering
+title: Clustering
 description: Code for Clustering
 img: assets/img/
 importance: 5
