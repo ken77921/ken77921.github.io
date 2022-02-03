@@ -1,15 +1,12 @@
 ---
 layout: page
-title: Multi-facet Embeddings
-description: Code for Multi-facet Embeddings
-img: assets/img/
+title: Use Active Learning to Improve SGD [Better title?]
+description: 
+img: assets/img/proj7-nn.png
 importance: 7
 category: Neural network
 ---
 
 <p>
-    <h3 style="text-align: left; color: #666699">Interactive Language Generation</h3><a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a>
-</p>
-<p>
-    <h3 style="text-align: left; color: #666699">Multi-facet Relation Extraction</h3> <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a>
+    Inspired by active learning, we propose two alternatives to re-weight training samples based on lightweight estimates of sample uncertainty in stochastic gradient descent (SGD). Extensive experimental results on six datasets show that our methods reliably improve accuracy in various network architectures, including additional gains on top of other popular training techniques (<a href="https://arxiv.org/abs/1704.07433">Paper</a>, <a href="https://arxiv.org/abs/1704.07433">Poster</a>).
 </p>
