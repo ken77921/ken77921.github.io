@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Decomposition of Multiple Foreground Co-segmentation
+title: Decomposi-tion of Multiple Foreground Co-segmentation
 description: Decomposes the unsupervised Multiple Foreground Co-segmentation problem into three sub-problems
 img: assets/img/proj11-cv-Decomposition of Multiple Foreground Co-segmentation.png
 importance: 11

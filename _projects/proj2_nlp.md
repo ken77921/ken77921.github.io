@@ -3,6 +3,7 @@ layout: page
 title: Unsupervised Hypernym Detection
 description: Code for Unsupervised Hypernym Detection
 img: assets/img/proj2-nlp-Multi-facet Embeddings for Relation Extraction.png
+importance: 2
 category: Natural language processing
 ---
 
