@@ -2,7 +2,7 @@
 layout: page
 title: Unsupervised Segmentation
 description: Code for Unsupervised Segmentation
-img:
+img: assets/img/
 importance: 4
 category: Natural language processing
 ---
