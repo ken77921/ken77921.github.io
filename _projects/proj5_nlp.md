@@ -4,7 +4,7 @@ title: Clustering
 description: Code for Clustering
 img: assets/img/
 importance: 5
-category: Computer Vision and Multimedia
+category: Computer vision and multimedia
 ---
 
 <p>
