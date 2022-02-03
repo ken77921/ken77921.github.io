@@ -3,8 +3,8 @@ layout: page
 title: Multi-facet Embeddings
 description: Code for Multi-facet Embeddings
 img: assets/img/proj1-nlp-interactive_LM_first_figure.png
-importance: 1
-category: Natural language processing
+importance: 7
+category: Neural network
 ---
 
 <p>

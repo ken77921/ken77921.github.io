@@ -4,7 +4,7 @@ title: Unsupervised Segmentation
 description: Code for Unsupervised Segmentation
 img:
 importance: 4
-category: Computer vision and multimedia
+category: Natural language processing
 ---
 
 <p>
