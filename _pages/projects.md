@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A growing collection of cool projects.
 nav: true
-display_categories: [Natural language Processing, Neural network, Education, Computer vision and multimedia]
+display_categories: [Natural language processing, Neural network, Education, Computer vision and multimedia]
 horizontal: false
 ---
 
