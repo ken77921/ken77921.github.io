@@ -15,10 +15,10 @@ display_grids: false
 <div>
   <!-- NLP -->
   <!-- CV & Multimedia-->
-  <p>
-    **Superpixel-Based Large Displacement Optical Flow**
-    ![Alt Text](/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)
-  </p>
+  
+  **Superpixel-Based Large Displacement Optical Flow**
+  ![Superpixel](/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)
+  
 </div>
 
 
