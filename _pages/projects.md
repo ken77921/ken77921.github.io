@@ -18,7 +18,7 @@ display_grids: false
   
 </div>
 **Superpixel-Based Large Displacement Optical Flow**
-![Superpixel](/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)
+![Superpixel]({{ site.baseurl }}/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)
 
 <!-- [Grids] pages/projects.md -->
 <div class="projects">
