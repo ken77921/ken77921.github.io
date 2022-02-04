@@ -6,7 +6,7 @@ description: A growing collection of cool projects.
 nav: true
 display_categories: [Natural language processing, Neural network, Education, Computer vision and multimedia]
 horizontal: false
-display_grids: true
+display_grids: false
 ---
 
 <!-- pages/projects.md -->
