@@ -17,10 +17,10 @@ display_grids: false
   <!-- CV & Multimedia-->
   
   **Superpixel-Based Large Displacement Optical Flow**
-  ![Superpixel](/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)
+  
   
 </div>
-
+![Superpixel](/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)
 
 <!-- [Grids] pages/projects.md -->
 <div class="projects">
