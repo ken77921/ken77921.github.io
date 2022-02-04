@@ -11,11 +11,13 @@ display_grids: false
 
 
 <!-- 020322[CY] -->
-<div>
+<div class="row-cols-2">
   <!-- NLP -->
   <!-- CV & Multimedia-->
-  
-  
+  <li>
+    **Superpixel-Based Large Displacement Optical Flow**
+![Superpixel]({{ site.baseurl }}/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)  
+  </li>
 </div>
 **Superpixel-Based Large Displacement Optical Flow**
 ![Superpixel]({{ site.baseurl }}/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png)
