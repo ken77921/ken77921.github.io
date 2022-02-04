@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 display_categories: [Nature Language Processing, Neural Network, Education, Computer Vision and Multimedia]
 horizontal: false
-display_grids: true
+display_grids: false
 ---
 
 <!-- pages/projects.md -->
