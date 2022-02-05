@@ -10,10 +10,6 @@ display_grids: false
 $blue-color-dark: #666699
 ---
 
-<h2 style="color: #666699">Natural Language Processing</h2>
-
-<h2 style="color: #666699">Neural Network</h2>
-
 <div class="row row-grid">
   <div class="col-4">
     <img src="../assets/img/" class="img-responsive" width="100%">
@@ -27,9 +23,11 @@ $blue-color-dark: #666699
 
 
 <!-- 02.22[CY] -->
+<h2 style="color: #00369f">Natural Language Processing</h2>
 
 
-<h2 style="color: #666699">Neural Network</h2>
+<!-- Neural Network -->
+<h2 style="color: #00369f">Neural Network</h2>
 
 <div class="row row-grid">
   <div class="col-4">
@@ -45,7 +43,7 @@ $blue-color-dark: #666699
 
 
 <!-- Education -->
-<h2 style="color: #666699">Education</h2>
+<h2 style="color: #00369f">Education</h2>
 
 <div class="row row-grid">
   <div class="col-4">
