@@ -8,6 +8,8 @@ display_categories: [Natural language processing, Neural network, Education, Com
 horizontal: false
 display_grids: false
 ---
+$blue-color-dark: #00369f
+
 <h2 style="color: #666699">Natural Language Processing</h2>
 
 <h2 style="color: #666699">Neural Network</h2>
