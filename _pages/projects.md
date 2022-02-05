@@ -23,8 +23,9 @@ display_grids: false
 -->
 
 <!-- 02.22[CY] -->
-<h2 calss="cat-header">Natural Language Processing</h2>
-
+<div class="div-cat-header">
+  <h2 calss="cat-header">Natural Language Processing</h2>
+</div>
 <div class="row row-grid">
   <div class="col-5">
     <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">

@@ -622,9 +622,11 @@ footer.sticky-bottom {
   }
 }
 // [CY]
-h2.cat-header {
-  color: var(--global-cat-header-color);
-  text-align: right;
+.div-cat-header {
+  h2.cat-header {
+    color: var(--global-cat-header-color);
+    text-align: right;
+  }
 }
 .row-grid + .row-grid {
     margin-top: 15px;
