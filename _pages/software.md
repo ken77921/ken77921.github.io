@@ -9,14 +9,9 @@ horizontal: false
 display_grids: false
 ---
 <div class="row row-grid">
-  <div class="col-5">
-    <img src="../assets/img/" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <h4></h4>
-    <p>
-    </p>
-  </div>
+  <h4></h4>
+  <p>
+  </p>
 </div>
 
 <!-- 02.22[CY] -->
