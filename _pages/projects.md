@@ -103,8 +103,9 @@ display_grids: false
 
 
 <!-- Neural Network -->
-<h2 style="color: #00369f">Neural Network</h2>
-
+<div class="div-cat-header">
+  <h2>Neural Network</h2>
+</div>
 <div class="row row-grid">
   <div class="col-5">
     <img src="../assets/img/proj7-nn.png" class="img-responsive" width="100%">
@@ -119,8 +120,9 @@ display_grids: false
 
 
 <!-- Education -->
-<h2 style="color: #00369f">Education</h2>
-
+<div class="div-cat-header">
+  <h2>Education</h2>
+</div>
 <div class="row row-grid">
   <div class="col-5">
     <img src="../assets/img/proj8-education-student modeling.png" class="img-responsive" width="100%">
@@ -137,7 +139,9 @@ display_grids: false
 </div>
 
 <!-- Computer Vision & Multimedia-->
-<h2 style="color: #00369f">Computer Vision and Multimedia</h2>
+<div class="div-cat-header">
+  <h2>Computer Vision and Multimedia</h2>
+</div>
 
 <div class="row row-grid">
   <div class="col-5">
