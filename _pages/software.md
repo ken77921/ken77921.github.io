@@ -8,7 +8,36 @@ display_categories: [Natural Language Processing, Computer Vision and Multimedia
 horizontal: false
 display_grids: false
 ---
+<div class="row row-grid">
+  <div class="col-5">
+    <img src="../assets/img/" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h4></h4>
+    <p>
+    </p>
+  </div>
+</div>
 
+<!-- 02.22[CY] -->
+<div class="div-cat-header">
+  <h2>Natural Language Processing</h2>
+</div>
+<div class="row row-grid">
+  <h4>Multi-facet Embeddings</h4>
+  <p>
+    <h3 style="text-align: left; color: #666699">Interactive Language Generation</h3><a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a>
+  </p>
+  <p>
+    <h3 style="text-align: left; color: #666699">Multi-facet Relation Extraction</h3> <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a>
+  </p>
+</div>
+
+
+<!-- 02.22[CY] -->
+<div class="div-cat-header">
+  <h2>Computer Vision and Multimedia</h2>
+</div>
 
 
 <!-- [Grids] pages/sw.md -->
