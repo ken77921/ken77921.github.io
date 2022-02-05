@@ -11,7 +11,7 @@ $blue-color-dark: #666699
 ---
 <!--
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -26,7 +26,7 @@ $blue-color-dark: #666699
 <h2 style="color: #00369f">Natural Language Processing</h2>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -39,7 +39,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj2-nlp-Multi-facet Embeddings for Relation Extraction.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -52,7 +52,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj3-nlp-Multi-facet Embeddings for Sentence Representation.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -64,7 +64,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj4-nlp-Overcoming Practical Issues of Deep Active Learning.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -77,7 +77,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj5-nlp-DIVE.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -89,7 +89,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj6-nlp-UMASS TAC 2016.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -105,7 +105,7 @@ $blue-color-dark: #666699
 <h2 style="color: #00369f">Neural Network</h2>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj7-nn.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -121,7 +121,7 @@ $blue-color-dark: #666699
 <h2 style="color: #00369f">Education</h2>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj8-education-student modeling.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -139,7 +139,7 @@ $blue-color-dark: #666699
 <h2 style="color: #00369f">Computer Vision and Multimedia</h2>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj9-cv-Active Sampling for estimating QoE model.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -154,7 +154,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj10-cv-Hierarchical Image Segmentation without Training.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -169,7 +169,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj11-cv-Decomposition of Multiple Foreground Co-segmentation.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
@@ -184,7 +184,7 @@ $blue-color-dark: #666699
 </div>
 
 <div class="row row-grid">
-  <div class="col-4">
+  <div class="col-5">
     <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
