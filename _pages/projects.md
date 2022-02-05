@@ -23,7 +23,7 @@ display_grids: false
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
-  <h2 calss="cat-header">Natural Language Processing</h2>
+  <h2>Natural Language Processing</h2>
 </div>
 <div class="row row-grid">
   <div class="col-5">
