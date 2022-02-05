@@ -29,7 +29,7 @@ display_grids: false
 <!-- 020322[CY] -->
 
 <!-- Computer Vision & Multimedia-->
-<h2 style="color: #666699">Computer Vision and Multimedia</h2>
+<h2 style="color: $blue-color-dark">Computer Vision and Multimedia</h2>
 
 <div class="row">
   <div class="col-4">
