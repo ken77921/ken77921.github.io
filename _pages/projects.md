@@ -7,7 +7,6 @@ nav: true
 display_categories: [Natural language processing, Neural network, Education, Computer vision and multimedia]
 horizontal: false
 display_grids: false
-$blue-color-dark: #666699
 ---
 <!--
 <div class="row row-grid">
