@@ -63,7 +63,7 @@ $blue-color-dark: #00369f
   </div>
 </div>
 
-<div class="row">
+<div class="row row-grid">
   <div class="col-4">
     <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png" class="img-responsive" width="100%">
   </div>
