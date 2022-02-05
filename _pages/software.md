@@ -13,7 +13,7 @@ horizontal: false
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category" style="text-align: left; color: #666699">{{ category }}</h2>
+  <h2 class="category" style="text-align: left; color: #00369f">{{ category }}</h2>
   
   <!-- CY 01.24.21: new sw collection -->
   {%- assign categorized_projects = site.projects | where: "category", category -%}
