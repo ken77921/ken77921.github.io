@@ -8,11 +8,13 @@ display_categories: [Natural Language Processing, Computer Vision and Multimedia
 horizontal: false
 display_grids: false
 ---
+<!--
 <div class="row row-grid">
   <h4></h4>
   <p>
   </p>
 </div>
+-->
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
