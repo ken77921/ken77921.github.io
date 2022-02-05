@@ -39,7 +39,7 @@ $blue-color-dark: #666699
     <img src="../assets/img/proj9-cv-Active Sampling for estimating QoE model.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    <h3>Active Sampling for estimating QoE model</h3>
+    <h1>Active Sampling for estimating QoE model</h1>
     <p>
     We use Bayesian learning to model the non-linear relationships between quality of experience (QoE) and multiple factors.
     </p>
