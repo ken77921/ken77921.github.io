@@ -375,6 +375,10 @@ footer.sticky-bottom {
   }
 }
 
+.row-grid + .row-grid {
+    margin-top: 15px;
+}
+
 
 // Publications
 

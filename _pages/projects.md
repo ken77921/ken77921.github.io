@@ -33,7 +33,7 @@ $blue-color-dark: #00369f
 <!-- Computer Vision & Multimedia-->
 <h2 style="color: $blue-color-dark">Computer Vision and Multimedia</h2>
 
-<div class="row">
+<div class="row row-grid">
   <div class="col-4">
     <img src="../assets/img/proj10-cv-Hierarchical Image Segmentation without Training.png" class="img-responsive" width="100%">
   </div>
@@ -48,7 +48,7 @@ $blue-color-dark: #00369f
   </div>
 </div>
 
-<div class="row">
+<div class="row row-grid">
   <div class="col-4">
     <img src="../assets/img/proj11-cv-Decomposition of Multiple Foreground Co-segmentation.png" class="img-responsive" width="100%">
   </div>
