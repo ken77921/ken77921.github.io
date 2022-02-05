@@ -21,7 +21,7 @@ $blue-color-dark: #666699
     <img src="../assets/img/" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    <h3></h3>
+    <h4></h4>
     <p>
     </p>
   </div>
@@ -38,7 +38,7 @@ $blue-color-dark: #666699
     <img src="../assets/img/proj9-cv-Active Sampling for estimating QoE model.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    <h1>Active Sampling for estimating QoE model</h1>
+    <h4>Active Sampling for estimating QoE model</h4>
     <p>
     We use Bayesian learning to model the non-linear relationships between quality of experience (QoE) and multiple factors.
     </p>
@@ -53,7 +53,7 @@ $blue-color-dark: #666699
     <img src="../assets/img/proj10-cv-Hierarchical Image Segmentation without Training.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    <h3>Hierarchical Image Segmentation without Training</h3>
+    <h4>Hierarchical Image Segmentation without Training</h4>
     <p>
     We proposed a general framework which applies classifiers with different complexity to discriminate segments in an image.
     </p>
@@ -68,7 +68,7 @@ $blue-color-dark: #666699
     <img src="../assets/img/proj11-cv-Decomposition of Multiple Foreground Co-segmentation.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    <h3>Decomposi-tion of Multiple Foreground Co-segmentation</h3>
+    <h4>Decomposi-tion of Multiple Foreground Co-segmentation</h4>
     <p>
     We proposed an efficient algorithm which decomposes the unsupervised Multiple Foreground Co-segmentation problem into three sub-problems: segmentation, matching and figure-ground classification.
     </p>
@@ -83,7 +83,7 @@ $blue-color-dark: #666699
     <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    <h3>Superpixel-Based Large Displacement Optical Flow</h3>
+    <h4>Superpixel-Based Large Displacement Optical Flow</h4>
     <p>
     We formulated our objective function at the superpixel level rather than the pixel level as the traditional optical flow method did.</p>
     <p>
