@@ -41,6 +41,21 @@ $blue-color-dark: #666699
   </div>
 </div>
 
+<div class="row row-grid">
+  <div class="col-4">
+    <img src="../assets/img/proj2-nlp-Multi-facet Embeddings for Relation Extraction.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h4>Multi-facet Embeddings for Relation Extraction</h4>
+    <p>
+      We propose multi-facet universal schema that uses a neural model to represent each sentence pattern as multiple facet embeddings and encourage one of these facet embeddings to be close to that of another sentence pattern if they cooccur with the same entity pair. In our experiments, we demonstrate that multi-facet embeddings significantly outperform their single facet embedding counterpart, compositional universal schema (Verga et al., 2016), in distantly supervised relation extraction tasks. Moreover, we can also use multiple embeddings to detect the entailment relation between two sentence patterns when no manual label is available.
+    </p>
+    <p>
+      (<a href="http://arxiv.org/abs/2103.15335">Paper</a>, <a href="https://github.com/iesl/interactive_LM">Code</a>, <a href="https://slideslive.com/38954487/changing-the-mind-of-transformers-for-topicallycontrollable-language-generation">Talk</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_8212c213a26a4c36acc69989aec2399c.key?dn=EACL_interactive_LM.key">Slides</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_97d81dbfca604d07b825f2214805166a.pdf">Poster</a>)
+    </p>
+  </div>
+</div>
+
 
 <!-- Neural Network -->
 <h2 style="color: #00369f">Neural Network</h2>
