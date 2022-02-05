@@ -8,7 +8,6 @@ nav_order: 3
 display_categories: [Nature Language Processing, Neural Network, Education, Computer Vision and Multimedia]
 horizontal: false
 display_grids: false
-$blue-color-dark: #666699
 ---
 <!--
 <div class="row row-grid">
