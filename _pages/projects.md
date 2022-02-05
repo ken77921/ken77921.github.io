@@ -14,8 +14,8 @@ display_grids: false
 <!-- 020322[CY] -->
 
 <!-- Computer Vision & Multimedia-->
+<h2>Computer vision and multimedia</h2>
 <div class="row">
-  <h2>Computer vision and multimedia</h2>
   <div class="col-4">
     <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png">
   </div>
