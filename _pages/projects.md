@@ -8,8 +8,8 @@ nav_order: 3
 display_categories: [Nature Language Processing, Neural Network, Education, Computer Vision and Multimedia]
 horizontal: false
 display_grids: false
+$blue-color-dark: #666699
 ---
-$blue-color-dark: #00369f
 
 <h2 style="color: #666699">Natural Language Processing</h2>
 
@@ -32,7 +32,7 @@ $blue-color-dark: #00369f
 <!-- 020322[CY] -->
 
 <!-- Computer Vision & Multimedia-->
-<h2 style="color: var($blue-color-dark)">Computer Vision and Multimedia</h2>
+<h2 style="color: $blue-color-dark">Computer Vision and Multimedia</h2>
 
 <div class="row row-grid">
   <div class="col-4">
@@ -45,7 +45,7 @@ $blue-color-dark: #00369f
     </p>
     <p>
     Our unsupervisedhierarchical segmentation results achieve similar or better performance in several standard benchmarks compared with the current state-of-the-art methods based on learning, and has been accepted to ACCV 2014 (<a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_242e704833024ea4a6723dfd884e85ff.pdf">Paper</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_f6c41538d19a4788a7efd64ffcfd01be.pdf">Poster</a>).
-    </p>
+  </p>
   </div>
 </div>
 
