@@ -12,9 +12,11 @@ display_grids: false
 
 <!-- 020322[CY] -->
 
+<!-- Computer Vision & Multimedia-->
 <div class="row">
+  <h2>Computer vision and multimedia</h2>
   <div class="col-4">
-    <img src="/assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png">
+    <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png">
   </div>
   <div class="col">
     <h3>Superpixel-Based Large Displacement Optical Flow</h3>
@@ -24,17 +26,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<div class="row">
-  <div class="col">
-    1 of 3
-  </div>
-  <div class="col">
-    2 of 3
-  </div>
-  <div class="col">
-    3 of 3
-  </div>
-</div>
+
 
 
 <!-- [Grids] pages/projects.md -->
