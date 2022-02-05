@@ -17,7 +17,7 @@ display_grids: false
 <h2>Computer vision and multimedia</h2>
 <div class="row">
   <div class="col-4">
-    <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png">
+    <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png" class = "img-responsive" width = "100%">
   </div>
   <div class="col">
     <h3>Superpixel-Based Large Displacement Optical Flow</h3>
