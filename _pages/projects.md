@@ -8,20 +8,68 @@ display_categories: [Natural language processing, Neural network, Education, Com
 horizontal: false
 display_grids: false
 ---
+<h2 style="color: #666699">Natural Language Processing</h2>
+
+<h2 style="color: #666699">Neural Network</h2>
+
+<h2 style="color: #666699">Education</h2>
+
+<div class="row">
+  <div class="col-4">
+    <img src="../assets/img/" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h3></h3>
+    <p>
+    </p>
+  </div>
+</div>
 
 
 <!-- 020322[CY] -->
 
 <!-- Computer Vision & Multimedia-->
-<h2>Computer vision and multimedia</h2>
+<h2 style="color: #666699">Computer Vision and Multimedia</h2>
+
 <div class="row">
   <div class="col-4">
-    <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png" class = "img-responsive" width = "100%">
+    <img src="../assets/img/proj10-cv-Hierarchical Image Segmentation without Training.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h3>Hierarchical Image Segmentation without Training</h3>
+    <p>
+    We proposed a general framework which applies classifiers with different complexity to discriminate segments in an image.
+    </p>
+    <p>
+    Our unsupervisedhierarchical segmentation results achieve similar or better performance in several standard benchmarks compared with the current state-of-the-art methods based on learning, and has been accepted to ACCV 2014 (<a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_242e704833024ea4a6723dfd884e85ff.pdf">Paper</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_f6c41538d19a4788a7efd64ffcfd01be.pdf">Poster</a>).
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <img src="../assets/img/proj11-cv-Decomposition of Multiple Foreground Co-segmentation.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h3>Decomposi-tion of Multiple Foreground Co-segmentation</h3>
+    <p>
+    We proposed an efficient algorithm which decomposes the unsupervised Multiple Foreground Co-segmentation problem into three sub-problems: segmentation, matching and figure-ground classification.
+    </p>
+    <p>
+    Our method improves the accuracy of the state-of-the-art method by 13% in a standard benchmark, and has been accepted by CVIU (<a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_6e352dd41985407bb5db08b256f1d333.pdf">Paper</a>)
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
     <h3>Superpixel-Based Large Displacement Optical Flow</h3>
     <p>
-    We formulated our objective function at the superpixel level rather than the pixel level as the traditional optical flow method did.  
+    We formulated our objective function at the superpixel level rather than the pixel level as the traditional optical flow method did.</p>
+    <p>
     Our method achieves better large displacement matching capability than LDOF in videos with lower quality , and has been accepted to ICIP 2013 (<a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_71ff29f7b6fc4c45822bb2e097dd0b45.pdf">Paper</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_4e98e9d181694a5f9724a6698a1dac98.pdf">Poster</a>).
     </p>
   </div>
