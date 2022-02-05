@@ -31,7 +31,7 @@ $blue-color-dark: #666699
 <!-- 020322[CY] -->
 
 <!-- Computer Vision & Multimedia-->
-<h2 style="color: $blue-color-dark">Computer Vision and Multimedia</h2>
+<h2 style="color: var($blue-color-dark)">Computer Vision and Multimedia</h2>
 
 <div class="row row-grid">
   <div class="col-4">
