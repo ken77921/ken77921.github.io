@@ -23,7 +23,7 @@ display_grids: false
 -->
 
 <!-- 02.22[CY] -->
-<h2 style="color: #00369f">Natural Language Processing</h2>
+<h2 calss="cat-header">Natural Language Processing</h2>
 
 <div class="row row-grid">
   <div class="col-5">
