@@ -9,7 +9,7 @@ horizontal: false
 display_grids: false
 $blue-color-dark: #666699
 ---
-
+<!--
 <div class="row row-grid">
   <div class="col-4">
     <img src="../assets/img/" class="img-responsive" width="100%">
@@ -20,7 +20,7 @@ $blue-color-dark: #666699
     </p>
   </div>
 </div>
-
+-->
 
 <!-- 02.22[CY] -->
 <h2 style="color: #00369f">Natural Language Processing</h2>
@@ -84,6 +84,18 @@ $blue-color-dark: #666699
     <h4>Distributional Inclusion Vector Embedding</h4>
     <p>
       We propose a novel word embedding method which preserves the distributional inclusion property in the sparse-bag-of-word (SBOW) feature. The embedding can be used to predict generality of words, detect the hypernym relation, and discover the topics from the raw text simultaneously. The extensive experiments show that the embedding effectively compresses the SBOW, and achieves new state-of-the-art performances on the unsupervised hypernym detection tasks (<a href="https://arxiv.org/abs/1710.00880">Paper</a>, <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">Code</a>, <a href="https://bl.ocks.org/chsu5358/raw/f08d4755b0f04e113c139a72a977df5c/">Demo</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_925731e34b974de881cbe54f66807d36.pdf">Poster</a>). We also show that DIVE could help us to do word sense induction more efficiently (<a href="https://arxiv.org/abs/1804.03257">Paper</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_ae5222766cda446985cce83c1c72bae3.pdf">Slides</a>).
+    </p>
+  </div>
+</div>
+
+<div class="row row-grid">
+  <div class="col-4">
+    <img src="../assets/img/proj6-nlp-UMASS TAC 2016.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h4>UMASS TAC 2016 system for relation extraction</h4>
+    <p>
+      TAC-KBP is one of the most challenging text-based information retrieval tasks. We integrate research which is done in UMASS IESL in the past year, including embedding linker, multilingual Universal Schema, and LSTM sentence embedding. We perform extensive error analysis and develop some novel techniques (such as using a search engine to reduce noise in training data) to tackle the problems (<a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_3b991c00b5e748b6b41c1c19bf2668e0.pdf">Paper</a>).
     </p>
   </div>
 </div>
