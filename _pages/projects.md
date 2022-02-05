@@ -15,8 +15,6 @@ $blue-color-dark: #666699
 
 <h2 style="color: #666699">Neural Network</h2>
 
-<h2 style="color: #666699">Education</h2>
-
 <div class="row row-grid">
   <div class="col-4">
     <img src="../assets/img/" class="img-responsive" width="100%">
@@ -29,7 +27,41 @@ $blue-color-dark: #666699
 </div>
 
 
-<!-- 020322[CY] -->
+<!-- 02.22[CY] -->
+
+
+<h2 style="color: #666699">Neural Network</h2>
+
+<div class="row row-grid">
+  <div class="col-4">
+    <img src="../assets/img/proj7-nn.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h4>Use Active Learning to Improve SGD [Better title?]</h4>
+    <p>
+    Inspired by active learning, we propose two alternatives to re-weight training samples based on lightweight estimates of sample uncertainty in stochastic gradient descent (SGD). Extensive experimental results on six datasets show that our methods reliably improve accuracy in various network architectures, including additional gains on top of other popular training techniques (<a href="https://arxiv.org/abs/1704.07433">Paper</a>, <a href="https://arxiv.org/abs/1704.07433">Poster</a>).
+    </p>
+  </div>
+</div>
+
+
+<!-- Education -->
+<h2 style="color: #666699">Education</h2>
+
+<div class="row row-grid">
+  <div class="col-4">
+    <img src="../assets/img/proj8-education-student modeling.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <h4>Student Modeling and Prerequisite Verification in Knowledge Tree</h4>
+    <p>
+    We extract answering logs of the exercises from <a href="https://www.junyiacademy.org/">Junyi Academy</a>, an E-learning website similar to Khan Academy.
+    </p>
+    <p>
+    We use crowdsourcing and machine learning to discover relationships between exercises. Based on that, we will design a mechanism of adaptive test to improve learning experiences of Junyi academy (<a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_059b30bf7b2444e7a8e0814baf9e1fd7.pdf">Paper</a>, <a href="https://f6d60bef-de96-4b94-b613-4913f88f2f0f.filesusr.com/ugd/e150d8_d281f5be254b434eb095cfc9d84cf75d.pptx?dn=Modeling%20Exercise%20Relationships%20in%20E-Learning_release.pptx">Presentation</a>, <a href="http://people.umass.edu/hawshiuancha/junyi_dependency_prediction.zip">Demo</a>, <a href="https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198">Dataset</a>).
+    </p>
+  </div>
+</div>
 
 <!-- Computer Vision & Multimedia-->
 <h2 style="color: #00369f">Computer Vision and Multimedia</h2>
