@@ -32,7 +32,6 @@ Natural Language Processing
 </div>
 
 <div>
-  <p>
   <h4>Unsupervised Hypernym Detection</h4>
   <div>
     <p>Distributional Inclusion Vector Embedding <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">(tensorflow and python)</a></p>
