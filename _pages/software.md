@@ -40,8 +40,9 @@ Natural Language Processing
 
 <div class="row row-grid">
   <h4>Educational Data Mining</h4>
-  <p>Demo code to visualize predicted exercise relationships <a href="">(GAE for python)</a>
-  </p>
+  <div>
+  <p>Demo code to visualize predicted exercise relationships <a href="">(GAE for python)</a></p>
+  </div>
 </div>
 
 
@@ -52,29 +53,35 @@ Natural Language Processing
 
 <div class="row row-grid">
   <h4>Unsupervised Segmentation</h4>
+  <div>
   <p>
     Hierarchical Image Segmentation without Training <a href="http://mml.citi.sinica.edu.tw/papers/HDC_code_ACCV_2014/">(Matlab)</a><br>
     Mutiple Foreground Cosegmentation Decomposition <a href="http://mml.citi.sinica.edu.tw/papers/MFC_code_CVIU_2015">(Matlab)</a><br>
     Efficient Hierarchical Graph-based Video Segmentation <a href="http://mml.citi.sinica.edu.tw/papers/GBH_code_ACCV_2014">(C/C++ for Windows)</a><br>
     ~10 times faster than the original from <a href="https://cse.buffalo.edu/~jcorso/r/supervoxels/">LIBSVX</a>
   </p>
+  </div>
 </div>
 
 <div class="row row-grid">
   <h4>Clustering</h4>
+  <div>
   <p>
     Efficient Kmeans Using Multiple Threads <a href="">(C/C++ with Matlab wrapper)</a>
     ~3 times faster than Matlab statistical toolbox<br>
     Efficient GMM Using Multiple Threads <a href="">(C/C++ with Matlab wrapper)</a><br>
     ~6 times faster than Matlab statistical toolbox
   </p>
+  </div>
 </div>
 
 <div class="row row-grid">
   <h4>Optical Flow</h4>
+  <div>
   <p>
     Superpixel-Based Large Displacement Optical Flow <a href="http://mml.citi.sinica.edu.tw/papers/SPLDOF_code.php">(Matlab)</a>
   </p>
+  </div>
 </div>
 
 
