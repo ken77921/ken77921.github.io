@@ -30,11 +30,14 @@ Natural Language Processing
     </p>
   </div>
 </div>
-<div class="row row-grid">
+<div>
   <p>
-  <h4>Unsupervised Hypernym Detection</h4><br>
-  <h5 style="text-align: left; color: #666699">Distributional Inclusion Vector Embedding</h5><a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">(tensorflow and python)</a>
-  </p>
+  <h4>Unsupervised Hypernym Detection</h4>
+  <div>
+    <p>
+    Distributional Inclusion Vector Embedding <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">(tensorflow and python)</a>
+    </p>
+  </div>
 </div>
 
 
