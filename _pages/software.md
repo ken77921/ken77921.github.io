@@ -21,7 +21,7 @@ Natural Language Processing
 <div class="div-cat-header">
   <h2>Natural Language Processing</h2>
 </div>
-<div class="row row-grid">
+<div>
   <h4>Multi-facet Embeddings</h4>
   <div>
     <p>
