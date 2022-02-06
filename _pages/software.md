@@ -25,8 +25,8 @@ Natural Language Processing
   <h4>Multi-facet Embeddings</h4>
   <div>
     <p>
-    <h5>Interactive Language Generation</h5> <a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a><br>
-    <h5>Multi-facet Relation Extraction</h5> <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a>
+    Interactive Language Generation <a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a><br>
+    Multi-facet Relation Extraction <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a>
     </p>
   </div>
 </div>
