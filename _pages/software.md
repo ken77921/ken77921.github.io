@@ -38,7 +38,7 @@ Natural Language Processing
   </div>
 </div>
 
-<div class="row row-grid">
+<div>
   <h4>Educational Data Mining</h4>
   <div>
   <p>Demo code to visualize predicted exercise relationships <a href="">(GAE for python)</a></p>
@@ -51,7 +51,7 @@ Natural Language Processing
   <h2>Computer Vision and Multimedia</h2>
 </div>
 
-<div class="row row-grid">
+<div>
   <h4>Unsupervised Segmentation</h4>
   <div>
   <p>
@@ -63,7 +63,7 @@ Natural Language Processing
   </div>
 </div>
 
-<div class="row row-grid">
+<div>
   <h4>Clustering</h4>
   <div>
   <p>
@@ -75,7 +75,7 @@ Natural Language Processing
   </div>
 </div>
 
-<div class="row row-grid">
+<div>
   <h4>Optical Flow</h4>
   <div>
   <p>
