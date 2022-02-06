@@ -22,13 +22,9 @@ Natural Language Processing
   <h2>Natural Language Processing</h2>
 </div>
 <div class="row row-grid">
-  <h4>Multi-facet Embeddings</h4>
-  <p>
-    <h3 style="text-align: left; color: #666699">Interactive Language Generation</h3><a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a>
-  </p>
-  <p>
-    <h3 style="text-align: left; color: #666699">Multi-facet Relation Extraction</h3> <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a>
-  </p>
+  <h4>Multi-facet Embeddings</h4><br>
+  <h5>Interactive Language Generation</h5> <a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a><br>
+  <h5>Multi-facet Relation Extraction</h5> <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a>
 </div>
 
 
