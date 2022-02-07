@@ -15,7 +15,6 @@ display_grids: false
   </p>
 </div>
 -->
-Natural Language Processing
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
