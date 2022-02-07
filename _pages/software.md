@@ -66,9 +66,9 @@ display_grids: false
   <h4>Clustering</h4>
   <div>
   <p>
-    Efficient Kmeans Using Multiple Threads <a href="">(C/C++ with Matlab wrapper)</a>
+    Efficient Kmeans Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47737/versions/4/download/zip">(C/C++ with Matlab wrapper)</a>
     ~3 times faster than Matlab statistical toolbox<br>
-    Efficient GMM Using Multiple Threads <a href="">(C/C++ with Matlab wrapper)</a><br>
+    Efficient GMM Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47741/versions/2/download/zip">(C/C++ with Matlab wrapper)</a><br>
     ~6 times faster than Matlab statistical toolbox
   </p>
   </div>
