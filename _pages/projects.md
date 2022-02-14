@@ -33,7 +33,7 @@ display_grids: false
     <h4>Multi-facet Embeddings for Controlling the Topics of Language Generation</h4>
     <p>
       We design a framework that displays multiple candidate upcoming topics, of which a user can select a subset to guide the generation. Our framework consists of two components: (1) a method that produces a set of candidate topics by predicting the centers of word clusters in the possible continuations, and (2) a text generation model whose output adheres to the chosen topics. The training of both components is self-supervised, using only unlabeled text. Our experiments demonstrate that our topic options are better than those of standard clustering approaches, and our framework often generates fluent sentences related to the chosen topics, as judged by automated metrics and crowdsourced workers.
-      (<a href="http://arxiv.org/abs/2103.15335">Paper</a>, <a href="https://github.com/iesl/interactive_LM">Code</a>, <a href="https://slideslive.com/38954487/changing-the-mind-of-transformers-for-topicallycontrollable-language-generation">Talk</a>, <a href="../assets/img/" download>Slides</a>, <a href="../assets/img/" download>Poster</a>)
+      (<a href="http://arxiv.org/abs/2103.15335">Paper</a>, <a href="https://github.com/iesl/interactive_LM">Code</a>, <a href="https://slideslive.com/38954487/changing-the-mind-of-transformers-for-topicallycontrollable-language-generation">Talk</a>, <a href="../assets/img/proj1-nlp-interactive_LM-EACL_interactive_LM-slides.key" download="">Slides</a>, <a href="../assets/img/proj1-nlp-interactive_LM-EACL_interactive_LM-poster.pdf" download="">Poster</a>)
     </p>
   </div>
 </div>
@@ -46,7 +46,7 @@ display_grids: false
     <h4>Multi-facet Embeddings for Relation Extraction</h4>
     <p>
       We propose multi-facet universal schema that uses a neural model to represent each sentence pattern as multiple facet embeddings and encourage one of these facet embeddings to be close to that of another sentence pattern if they cooccur with the same entity pair. In our experiments, we demonstrate that multi-facet embeddings significantly outperform their single facet embedding counterpart, compositional universal schema (Verga et al., 2016), in distantly supervised relation extraction tasks. Moreover, we can also use multiple embeddings to detect the entailment relation between two sentence patterns when no manual label is available.
-      (<a href="http://arxiv.org/abs/2103.15339">Paper</a>, <a href="https://github.com/rohanpaul11/multifacet-re">Code</a>, <a href="https://slideslive.com/38954382/multifacet-universal-schema">Talk</a>, <a href="../assets/img/" download>Slides</a>, <a href="../assets/img/" download>Poster</a>)
+      (<a href="http://arxiv.org/abs/2103.15339">Paper</a>, <a href="https://github.com/rohanpaul11/multifacet-re">Code</a>, <a href="https://slideslive.com/38954382/multifacet-universal-schema">Talk</a>, <a href="../assets/img/proj2-nlp-Multi-facet RE-EACL_multi-facet_RE_small-slides.key" download="">Slides</a>, <a href="../assets/img/proj2-nlp-Multi-facet RE-EACL_multi-facet_RE_small-poster.pdf" download="">Poster</a>)
     </p>
   </div>
 </div>
@@ -58,7 +58,7 @@ display_grids: false
   <div class="col">
     <h4>Multi-facet Embeddings for Sentence Representation</h4>
     <p>
-      We propose a novel embedding method for a text sequence (e.g., a sentence) where each sequence is represented by a distinct set of multi-mode codebook embeddings to capture different semantic facets of its meaning. The codebook embeddings can be viewed as the cluster centers which summarize the distribution of possibly co-occurring words in a pre-trained word embedding space. Our experiments show that the per-sentence codebook embeddings significantly improve the performances in unsupervised sentence similarity and extractive summarization benchmarks. (<a href="http://arxiv.org/abs/2103.15330">Paper</a>, <a href="https://docs.google.com/presentation/d/1k-OBWdBYsGmXUuvNc1_J_JrEppB_Aqh82bJPCgjFL-s/edit?usp=sharing">Slides</a>, <a href="../assets/img/" download>Poster</a>). 
+      We propose a novel embedding method for a text sequence (e.g., a sentence) where each sequence is represented by a distinct set of multi-mode codebook embeddings to capture different semantic facets of its meaning. The codebook embeddings can be viewed as the cluster centers which summarize the distribution of possibly co-occurring words in a pre-trained word embedding space. Our experiments show that the per-sentence codebook embeddings significantly improve the performances in unsupervised sentence similarity and extractive summarization benchmarks. (<a href="http://arxiv.org/abs/2103.15330">Paper</a>, <a href="https://docs.google.com/presentation/d/1k-OBWdBYsGmXUuvNc1_J_JrEppB_Aqh82bJPCgjFL-s/edit?usp=sharing">Slides</a>, <a href="../assets/img/proj3-nlp-Multi-facet Embeddings for Sentence Representation-poster.pdf" download="">Poster</a>). 
     </p>
   </div>
 </div>
@@ -83,7 +83,7 @@ display_grids: false
   <div class="col">
     <h4>Distributional Inclusion Vector Embedding</h4>
     <p>
-      We propose a novel word embedding method which preserves the distributional inclusion property in the sparse-bag-of-word (SBOW) feature. The embedding can be used to predict generality of words, detect the hypernym relation, and discover the topics from the raw text simultaneously. The extensive experiments show that the embedding effectively compresses the SBOW, and achieves new state-of-the-art performances on the unsupervised hypernym detection tasks (<a href="https://arxiv.org/abs/1710.00880">Paper</a>, <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">Code</a>, <a href="https://bl.ocks.org/chsu5358/raw/f08d4755b0f04e113c139a72a977df5c/">Demo</a>, <a href="../assets/img/" download>Poster</a>). We also show that DIVE could help us to do word sense induction more efficiently (<a href="https://arxiv.org/abs/1804.03257">Paper</a>, <a href="../assets/img/" download>Slides</a>).
+      We propose a novel word embedding method which preserves the distributional inclusion property in the sparse-bag-of-word (SBOW) feature. The embedding can be used to predict generality of words, detect the hypernym relation, and discover the topics from the raw text simultaneously. The extensive experiments show that the embedding effectively compresses the SBOW, and achieves new state-of-the-art performances on the unsupervised hypernym detection tasks (<a href="https://arxiv.org/abs/1710.00880">Paper</a>, <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">Code</a>, <a href="https://bl.ocks.org/chsu5358/raw/f08d4755b0f04e113c139a72a977df5c/">Demo</a>, <a href="../assets/img/proj5-nlp-DIVE-poster.pdf" download="">Poster</a>). We also show that DIVE could help us to do word sense induction more efficiently (<a href="https://arxiv.org/abs/1804.03257">Paper</a>, <a href="../assets/img/proj5-nlp-DIVE-slides.pdf" download="">Slides</a>).
     </p>
   </div>
 </div>
@@ -95,7 +95,7 @@ display_grids: false
   <div class="col">
     <h4>UMASS TAC 2016 system for relation extraction</h4>
     <p>
-      TAC-KBP is one of the most challenging text-based information retrieval tasks. We integrate research which is done in UMASS IESL in the past year, including embedding linker, multilingual Universal Schema, and LSTM sentence embedding. We perform extensive error analysis and develop some novel techniques (such as using a search engine to reduce noise in training data) to tackle the problems (<a href="../assets/img/" download>Paper</a>).
+      TAC-KBP is one of the most challenging text-based information retrieval tasks. We integrate research which is done in UMASS IESL in the past year, including embedding linker, multilingual Universal Schema, and LSTM sentence embedding. We perform extensive error analysis and develop some novel techniques (such as using a search engine to reduce noise in training data) to tackle the problems (<a href="../assets/img/proj6-nlp-UMASS TAC 2016-paper.pdf" download="">Paper</a>).
     </p>
   </div>
 </div>
@@ -132,7 +132,7 @@ display_grids: false
     We extract answering logs of the exercises from <a href="https://www.junyiacademy.org/">Junyi Academy</a>, an E-learning website similar to Khan Academy.
     </p>
     <p>
-    We use crowdsourcing and machine learning to discover relationships between exercises. Based on that, we will design a mechanism of adaptive test to improve learning experiences of Junyi academy (<a href="../assets/img/" download>Paper</a>, <a href="../assets/img/" download>Presentation</a>, <a href="http://people.umass.edu/hawshiuancha/junyi_dependency_prediction.zip">Demo</a>, <a href="https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198">Dataset</a>).
+    We use crowdsourcing and machine learning to discover relationships between exercises. Based on that, we will design a mechanism of adaptive test to improve learning experiences of Junyi academy (<a href="../assets/img/proj8-education-student modeling-paper.pdf" download="">Paper</a>, <a href="../assets/img/proj8-education-student modeling-presentation.pptx" download="">Presentation</a>, <a href="http://people.umass.edu/hawshiuancha/junyi_dependency_prediction.zip">Demo</a>, <a href="https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198">Dataset</a>).
     </p>
   </div>
 </div>
@@ -152,7 +152,7 @@ display_grids: false
     We use Bayesian learning to model the non-linear relationships between quality of experience (QoE) and multiple factors.
     </p>
     <p>
-    Our experiment shows that active sampling can be used to reduce the number of samples collected from crowdsourcing for building such model (<a href="../assets/img/" download>Paper</a>).
+    Our experiment shows that active sampling can be used to reduce the number of samples collected from crowdsourcing for building such model (<a href="../assets/img/proj9-cv-Active Sampling for estimating QoE model-paper.pdf" download="">Paper</a>).
     </p>
   </div>
 </div>
@@ -167,7 +167,7 @@ display_grids: false
     We proposed a general framework which applies classifiers with different complexity to discriminate segments in an image.
     </p>
     <p>
-    Our unsupervisedhierarchical segmentation results achieve similar or better performance in several standard benchmarks compared with the current state-of-the-art methods based on learning, and has been accepted to ACCV 2014 (<a href="../assets/img/" download>Paper</a>, <a href="../assets/img/" download>Poster</a>).
+    Our unsupervisedhierarchical segmentation results achieve similar or better performance in several standard benchmarks compared with the current state-of-the-art methods based on learning, and has been accepted to ACCV 2014 (<a href="../assets/img/proj10-cv-Hierarchical Image Segmentation without Training-paper.pdf" download="">Paper</a>, <a href="../assets/img/proj10-cv-Hierarchical Image Segmentation without Training-poster.pdf" download="">Poster</a>).
   </p>
   </div>
 </div>
@@ -182,7 +182,7 @@ display_grids: false
     We proposed an efficient algorithm which decomposes the unsupervised Multiple Foreground Co-segmentation problem into three sub-problems: segmentation, matching and figure-ground classification.
     </p>
     <p>
-    Our method improves the accuracy of the state-of-the-art method by 13% in a standard benchmark, and has been accepted by CVIU (<a href="../assets/img/" download>Paper</a>)
+    Our method improves the accuracy of the state-of-the-art method by 13% in a standard benchmark, and has been accepted by CVIU (<a href="../assets/img/proj11-cv-Decomposition of Multiple Foreground Co-segmentation-paper.pdf" download="">Paper</a>)
     </p>
   </div>
 </div>
@@ -196,7 +196,7 @@ display_grids: false
     <p>
     We formulated our objective function at the superpixel level rather than the pixel level as the traditional optical flow method did.</p>
     <p>
-    Our method achieves better large displacement matching capability than LDOF in videos with lower quality , and has been accepted to ICIP 2013 (<a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-paper.pdf" download>Paper</a>, <a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-poster.pdf" download>Poster</a>).
+    Our method achieves better large displacement matching capability than LDOF in videos with lower quality , and has been accepted to ICIP 2013 (<a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-paper.pdf" download="">Paper</a>, <a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-poster.pdf" download="">Poster</a>).
     </p>
   </div>
 </div>
