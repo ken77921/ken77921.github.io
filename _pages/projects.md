@@ -196,7 +196,7 @@ display_grids: false
     <p>
     We formulated our objective function at the superpixel level rather than the pixel level as the traditional optical flow method did.</p>
     <p>
-    Our method achieves better large displacement matching capability than LDOF in videos with lower quality , and has been accepted to ICIP 2013 (<a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-paper.pdf" download="">Paper</a>, <a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-poster.pdf" download="">Poster</a>).
+    Our method achieves better large displacement matching capability than LDOF in videos with lower quality , and has been accepted to ICIP 2013 (<a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-paper.pdf" download="">Paper</a>, <a href="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow-poster.pdf" download="poster-icip2013">Poster</a>).
     </p>
   </div>
 </div>
