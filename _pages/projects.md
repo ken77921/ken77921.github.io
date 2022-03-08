@@ -46,7 +46,7 @@ display_grids: false
     <h4>Multi-facet Embeddings for Relation Extraction</h4>
     <p>
       We propose multi-facet universal schema that uses a neural model to represent each sentence pattern as multiple facet embeddings and encourage one of these facet embeddings to be close to that of another sentence pattern if they cooccur with the same entity pair. In our experiments, we demonstrate that multi-facet embeddings significantly outperform their single facet embedding counterpart, compositional universal schema (Verga et al., 2016), in distantly supervised relation extraction tasks. Moreover, we can also use multiple embeddings to detect the entailment relation between two sentence patterns when no manual label is available.
-      (<a href="http://arxiv.org/abs/2103.15339">Paper</a>, <a href="https://github.com/rohanpaul11/multifacet-re">Code</a>, <a href="https://slideslive.com/38954382/multifacet-universal-schema">Talk</a>, <a href="../assets/pdf/proj2-nlp-Multi-facet RE-EACL_multi-facet_RE_small-slides.key" download="">Slides</a>, <a href="../assets/pdf/proj2-nlp-Multi-facet RE-EACL_multi-facet_RE_small-poster.pdf" download="">Poster</a>)
+      (<a href="http://arxiv.org/abs/2103.15339">Paper</a>, <a href="https://github.com/rohanpaul11/multifacet-re">Code</a>, <a href="https://slideslive.com/38954382/multifacet-universal-schema">Talk</a>, <a href="../assets/pdf/proj2-nlp-Multi-facet RE-EACL_multi-facet_RE_small-slides.key" download="slides-arxiv2021-Multi-facet Universal Schema">Slides</a>, <a href="../assets/pdf/proj2-nlp-Multi-facet RE-EACL_multi-facet_RE_small-poster.pdf" download="poster-arxiv2021-Multi-facet Universal Schema">Poster</a>)
     </p>
   </div>
 </div>
