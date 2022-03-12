@@ -23,7 +23,8 @@
           <div class="author">
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name%}
+            <!-- {%- if author.last == site.scholar.last_name%} -->
+            {%- if author.last contains site.scholar.last_name%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
@@ -113,7 +114,7 @@
             {% if entry.supp contains '://' -%}
             <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- else -%}
-            <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+            <a href="{{ entry.supp | prepend: '../assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.blog %}
