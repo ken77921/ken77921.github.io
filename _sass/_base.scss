@@ -38,6 +38,8 @@ a,
 table.table a {
   color: var(--global-theme-color);
 
+  border-bottom: 1px dashed var(--global-theme-color);
+  
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -716,7 +718,7 @@ footer.sticky-bottom {
         }
         > em {
           color: var(--global-theme-color) !important;
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px solid var(--global-theme-color);
           font-style: normal;
         }
 
