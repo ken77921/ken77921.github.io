@@ -714,9 +714,9 @@ footer.sticky-bottom {
             text-decoration: none;
           }
         }
-
-        >em {
-          border-bottom: 1px solid;
+        > em {
+          color: var(--global-theme-color) !important;
+          border-bottom: 1px dashed var(--global-theme-color);
           font-style: normal;
         }
 
