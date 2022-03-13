@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of cool projects.
+description:
 nav: true
 nav_order: 3
 display_categories: [Nature Language Processing, Neural Network, Education, Computer Vision and Multimedia]
@@ -11,11 +11,11 @@ display_grids: false
 ---
 <!--
 <div class="row row-grid">
+  <h4></h4>
   <div class="col-6">
     <img src="../assets/img/" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    <h4></h4>
     <p>
     </p>
   </div>
@@ -27,7 +27,9 @@ display_grids: false
   <h2>Natural Language Processing</h2>
 </div>
 <div class="row row-grid">
-  <h4>Multi-facet Embeddings for Controlling the Topics of Language Generation</h4>
+  <div class="row">
+    <h4>Multi-facet Embeddings for Controlling the Topics of Language Generation</h4>
+  </div>
   <div class="col-6">
     <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
   </div>
