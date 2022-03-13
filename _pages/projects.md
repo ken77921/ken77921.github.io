@@ -27,9 +27,7 @@ display_grids: false
   <h2>Natural Language Processing</h2>
 </div>
 <div class="row row-grid">
-  <div class="row">
-    <h4>Multi-facet Embeddings for Controlling the Topics of Language Generation</h4>
-  </div>
+  <h4>Multi-facet Embeddings for Controlling the Topics of Language Generation</h4>
   <div class="col-6">
     <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
   </div>
