@@ -1,8 +1,8 @@
 ---
 layout: page
-title: software
+title: Software
 permalink: /software/
-description: A growing collection of cool software/tools.
+description:
 nav: true
 display_categories: [Natural Language Processing, Computer Vision and Multimedia]
 horizontal: false
