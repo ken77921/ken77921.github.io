@@ -111,7 +111,9 @@ collections:
   software:
     output: true
     permalink: /software/:path/
-
+  research:
+    output: true
+    permalink: /research/:path/
 news_limit: 5
 
 # -----------------------------------------------------------------------------
