@@ -33,7 +33,7 @@ display_grids: false
 <div class="row row-grid">
   <h4>Why Multiple Embeddings are Better in LM's Output Softmax Layer</h4>
   <div class="col-6">
-    <img src="../assets/img/Multi-facet_softmax.png" class="img-responsive" width="100%">
+    <img src="../assets/img/Multi-facet_Softmax.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
     <p>
