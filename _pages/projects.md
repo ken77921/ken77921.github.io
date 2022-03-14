@@ -5,7 +5,8 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [Nature Language Processing, Neural Network, Education, Computer Vision and Multimedia]
+display_categories: [Multi-facet Embedding for Language Modeling, Active Learning and Crowdsourcing, Other Natural Language Processing, Computer Vision (Clustering and Matching)]
+#display_categories: [Natural language processing, Neural network, Education, Computer vision and multimedia]
 horizontal: false
 display_grids: false
 ---
@@ -24,10 +25,10 @@ display_grids: false
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
-  <h2>Natural Language Processing</h2>
+  <h2>Multi-facet Embedding for Language Modeling</h2>
 </div>
 <div class="row row-grid">
-  <h4>Multi-facet Embeddings for Controlling the Topics of Language Generation</h4>
+  <h4>Predicting the Future Topics for Interactive Language Generation</h4>
   <div class="col-6">
     <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
   </div>
@@ -40,7 +41,7 @@ display_grids: false
 </div>
 
 <div class="row row-grid">
-  <h4>Multi-facet Embeddings for Relation Extraction</h4>
+  <h4>Multi-facet Embeddings for Distantly Supervised Relation Extraction</h4>
   <div class="col-6">
     <img src="../assets/img/proj2-nlp-Multi-facet Embeddings for Relation Extraction.png" class="img-responsive" width="100%">
   </div>
@@ -53,7 +54,7 @@ display_grids: false
 </div>
 
 <div class="row row-grid">
-  <h4>Multi-facet Embeddings for Sentence Representation</h4>
+  <h4>Predicting Cluster Centers for Sentence Representation</h4>
   <div class="col-6">
     <img src="../assets/img/proj3-nlp-Multi-facet Embeddings for Sentence Representation.png" class="img-responsive" width="100%">
   </div>
@@ -64,8 +65,14 @@ display_grids: false
   </div>
 </div>
 
+
+
+
+<div class="div-cat-header">
+  <h2>Active Learning and Crowdsourcing</h2>
+</div>
 <div class="row row-grid">
-  <h4>Multi-facet Embeddings for Sentence Representation</h4>
+  <h4>Overcoming Practical Issues of Deep Active Learning</h4>
   <div class="col-6">
     <img src="../assets/img/proj4-nlp-Overcoming Practical Issues of Deep Active Learning.png" class="img-responsive" width="100%">
   </div>
@@ -76,7 +83,49 @@ display_grids: false
     </p>
   </div>
 </div>
+<div class="row row-grid">
+  <h4>Active Sampling for estimating QoE model</h4>
+  <div class="col-6">
+    <img src="../assets/img/active_QoE.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+    We use Bayesian learning to model the non-linear relationships between quality of experience (QoE) and multiple factors.
+    </p>
+    <p>
+    Our experiment shows that active sampling can be used to reduce the number of samples collected from crowdsourcing for building such model (<a href="../assets/pdf/proj9-cv-Active Sampling for estimating QoE model-paper.pdf" download="paper-ieee trans. multimed. 2018-Active learning for crowdsourced QoE modeling">Paper</a>).
+    </p>
+  </div>
+</div>
+<div class="row row-grid">
+  <h4>Student Modeling and Prerequisite Verification in Knowledge Tree</h4>
+  <div class="col-6">
+    <img src="../assets/img/proj8-education-student modeling.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+    We extract answering logs of the exercises from <a href="https://www.junyiacademy.org/">Junyi Academy</a>, an E-learning website similar to Khan Academy.
+    </p>
+    <p>
+    We use crowdsourcing and machine learning to discover relationships between exercises. Based on that, we will design a mechanism of adaptive test to improve learning experiences of Junyi academy (<a href="../assets/pdf/proj8-education-student modeling-paper.pdf" download="paper-edm2015-Modeling Exercise Relationships in E-Learning: A Unified Approach">Paper</a>, <a href="../assets/pdf/proj8-education-student modeling-presentation.pptx" download="slides-edm2015-Modeling Exercise Relationships in E-Learning: A Unified Approach">Presentation</a>, <a href="http://people.umass.edu/hawshiuancha/junyi_dependency_prediction.zip">Demo</a>, <a href="https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198">Dataset</a>).
+    </p>
+  </div>
+</div>
+<div class="row row-grid">
+  <h4>Emphasize Uncertain Examples in Supervised Learning</h4>
+  <div class="col-6">
+    <img src="../assets/img/proj7-nn.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+    Inspired by active learning, we propose two alternatives to re-weight training samples based on lightweight estimates of sample uncertainty in stochastic gradient descent (SGD). Extensive experimental results on six datasets show that our methods reliably improve accuracy in various network architectures, including additional gains on top of other popular training techniques (<a href="https://arxiv.org/abs/1704.07433">Paper</a>, <a href="https://arxiv.org/abs/1704.07433">Poster</a>).
+    </p>
+  </div>
+</div>
 
+<div class="div-cat-header">
+  <h2>Other Natural Language Processing</h2>
+</div>
 <div class="row row-grid">
   <h4>Distributional Inclusion Vector Embedding</h4>
   <div class="col-6">
@@ -102,61 +151,13 @@ display_grids: false
 </div>
 
 
-<!-- Neural Network -->
+
+
+
 <div class="div-cat-header">
-  <h2>Neural Network</h2>
-</div>
-<div class="row row-grid">
-  <h4>Use Active Learning to Improve SGD [Better title?]</h4>
-  <div class="col-6">
-    <img src="../assets/img/proj7-nn.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <p>
-    Inspired by active learning, we propose two alternatives to re-weight training samples based on lightweight estimates of sample uncertainty in stochastic gradient descent (SGD). Extensive experimental results on six datasets show that our methods reliably improve accuracy in various network architectures, including additional gains on top of other popular training techniques (<a href="https://arxiv.org/abs/1704.07433">Paper</a>, <a href="https://arxiv.org/abs/1704.07433">Poster</a>).
-    </p>
-  </div>
+  <h2>Computer Vision (Clustering and Matching)</h2>
 </div>
 
-
-<!-- Education -->
-<div class="div-cat-header">
-  <h2>Education</h2>
-</div>
-<div class="row row-grid">
-  <h4>Student Modeling and Prerequisite Verification in Knowledge Tree</h4>
-  <div class="col-6">
-    <img src="../assets/img/proj8-education-student modeling.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <p>
-    We extract answering logs of the exercises from <a href="https://www.junyiacademy.org/">Junyi Academy</a>, an E-learning website similar to Khan Academy.
-    </p>
-    <p>
-    We use crowdsourcing and machine learning to discover relationships between exercises. Based on that, we will design a mechanism of adaptive test to improve learning experiences of Junyi academy (<a href="../assets/pdf/proj8-education-student modeling-paper.pdf" download="paper-edm2015-Modeling Exercise Relationships in E-Learning: A Unified Approach">Paper</a>, <a href="../assets/pdf/proj8-education-student modeling-presentation.pptx" download="slides-edm2015-Modeling Exercise Relationships in E-Learning: A Unified Approach">Presentation</a>, <a href="http://people.umass.edu/hawshiuancha/junyi_dependency_prediction.zip">Demo</a>, <a href="https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198">Dataset</a>).
-    </p>
-  </div>
-</div>
-
-<!-- Computer Vision & Multimedia-->
-<div class="div-cat-header">
-  <h2>Computer Vision and Multimedia</h2>
-</div>
-
-<div class="row row-grid">
-  <h4>Active Sampling for estimating QoE model</h4>
-  <div class="col-6">
-    <img src="../assets/img/proj9-cv-Active Sampling for estimating QoE model.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <p>
-    We use Bayesian learning to model the non-linear relationships between quality of experience (QoE) and multiple factors.
-    </p>
-    <p>
-    Our experiment shows that active sampling can be used to reduce the number of samples collected from crowdsourcing for building such model (<a href="../assets/pdf/proj9-cv-Active Sampling for estimating QoE model-paper.pdf" download="paper-ieee trans. multimed. 2018-Active learning for crowdsourced QoE modeling">Paper</a>).
-    </p>
-  </div>
-</div>
 
 <div class="row row-grid">
   <h4>Hierarchical Image Segmentation without Training</h4>
@@ -176,7 +177,7 @@ display_grids: false
 <div class="row row-grid">
   <h4>Decomposi-tion of Multiple Foreground Co-segmentation</h4>
   <div class="col-6">
-    <img src="../assets/img/proj11-cv-Decomposition of Multiple Foreground Co-segmentation.png" class="img-responsive" width="100%">
+    <img src="../assets/img/MFC.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
     <p>
