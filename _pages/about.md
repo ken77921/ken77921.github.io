@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 張浩軒
 
 profile:
   align: right
@@ -19,8 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am seeking Postdoc positions starting Summer/Fall 2022. I'm currently in my final year of my PhD at the <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a> advised by Professor <a href="https://people.cs.umass.edu/~mccallum/">Andrew McCallum</a>. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My primary research goal is to build accurate semantic models of textual similarity and entailment in order to help knowledge workers efficiently navigate large text collections. To approach this goal, I addressed some fundimental limitations of self-supervised language models and active learning methods; I developed a state-of-the-art review-paper affinity estimation model that is adopted by <a href="https://openreview.net/">Openreview</a> and used by many conferences, including ICLR and NeurIPS; I also developed crowdsourcing methods for educational prerequisite estimation and unsupervised methods for hypernym detection.
+
+Previously, I work with <a href="http://vllab.ee.ntu.edu.tw/members.html">Yu-Chiang Frank Wang</a> and Kuan-Ta Chen in <a href="https://www.sinica.edu.tw/en">Academia Sinica, Taiwan</a>. I received B.S in <a href="https://eecshp.nycu.edu.tw/pages/Introduction?locale=en">EECS Undergraduate Honors Program</a> from <a href="https://en.nycu.edu.tw/">National Yang Ming Chiao Tung University (NYCU), Taiwan</a>.
+>>>>>>> 6f66c41 (update the about section)
