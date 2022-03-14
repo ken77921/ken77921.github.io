@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description:
 nav: true
-display_categories: [Multi-facet Embedding for Language Modeling, Active Learning and Crowdsourcing, Other Natural Language Processing, Computer Vision (Clustering and Matching)]
+display_categories: [Multi-facet Embedding for Language Modeling, Active Learning and Crowdsourcing, Natural Language Processing, Computer Vision (Clustering and Matching)]
 #display_categories: [Natural language processing, Neural network, Education, Computer vision and multimedia]
 horizontal: false
 display_grids: false
@@ -23,9 +23,24 @@ display_grids: false
 -->
 
 <!-- 02.22[CY] -->
+<br>
 <div class="div-cat-header">
   <h2>Multi-facet Embedding for Language Modeling</h2>
 </div>
+<br>
+
+<div class="row row-grid">
+  <h4>Why Multiple Embeddings are Better in LM's Output Softmax Layer</h4>
+  <div class="col-6">
+    <img src="../assets/img/Multi-facet_softmax.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      We theoretically show that this single hidden state cannot produce all probability distributions regardless of the language model (LM) size or training data size because the single hidden state embedding cannot be close to the embeddings of all the possible next words simultaneously when there are other interfering word embeddings between them. Our work not only deepens our understanding of softmax bottleneck and mixture of softmax (MoS) but also inspires us to propose multi-facet softmax (MFS) to address the limitations of MoS. (<a href="https://openreview.net/forum?id=n0jZ0QyXzj">Paper</a>)
+    </p>
+  </div>
+</div>
+
 <div class="row row-grid">
   <h4>Predicting the Future Topics for Interactive Language Generation</h4>
   <div class="col-6">
@@ -66,10 +81,12 @@ display_grids: false
 
 
 
-
+<br>
 <div class="div-cat-header">
   <h2>Active Learning and Crowdsourcing</h2>
 </div>
+<br>
+
 <div class="row row-grid">
   <h4>Overcoming Practical Issues of Deep Active Learning</h4>
   <div class="col-6">
@@ -122,9 +139,12 @@ display_grids: false
   </div>
 </div>
 
+<br>
 <div class="div-cat-header">
-  <h2>Other Natural Language Processing</h2>
+  <h2>Natural Language Processing</h2>
 </div>
+<br>
+
 <div class="row row-grid">
   <h4>Distributional Inclusion Vector Embedding</h4>
   <div class="col-6">
@@ -152,11 +172,11 @@ display_grids: false
 
 
 
-
+<br>
 <div class="div-cat-header">
   <h2>Computer Vision (Clustering and Matching)</h2>
 </div>
-
+<br>
 
 <div class="row row-grid">
   <h4>Hierarchical Image Segmentation without Training</h4>
