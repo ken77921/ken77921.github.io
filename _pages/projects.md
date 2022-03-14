@@ -40,6 +40,7 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
 
 <div class="row row-grid">
   <h4>Predicting the Future Topics for Interactive Language Generation</h4>
@@ -53,6 +54,7 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
 
 <div class="row row-grid">
   <h4>Multi-facet Embeddings for Distantly Supervised Relation Extraction</h4>
@@ -66,6 +68,7 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
 
 <div class="row row-grid">
   <h4>Predicting Cluster Centers for Sentence Representation</h4>
@@ -78,7 +81,7 @@ display_grids: false
     </p>
   </div>
 </div>
-
+<br>
 
 
 <br>
@@ -99,8 +102,10 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
+
 <div class="row row-grid">
-  <h4>Active Sampling for estimating QoE model</h4>
+  <h4>Active Sampling for Estimating Quality of Experience (QoE) Model</h4>
   <div class="col-6">
     <img src="../assets/img/active_QoE.png" class="img-responsive" width="100%">
   </div>
@@ -113,6 +118,8 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
+
 <div class="row row-grid">
   <h4>Student Modeling and Prerequisite Verification in Knowledge Tree</h4>
   <div class="col-6">
@@ -127,6 +134,8 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
+
 <div class="row row-grid">
   <h4>Emphasize Uncertain Examples in Supervised Learning</h4>
   <div class="col-6">
@@ -138,6 +147,7 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
 
 <br>
 <div class="div-cat-header">
@@ -146,7 +156,7 @@ display_grids: false
 <br>
 
 <div class="row row-grid">
-  <h4>Distributional Inclusion Vector Embedding</h4>
+  <h4>Distributional Inclusion Vector Embedding for Unsupevised Hypernym Detection</h4>
   <div class="col-6">
     <img src="../assets/img/proj5-nlp-DIVE.png" class="img-responsive" width="100%">
   </div>
@@ -156,9 +166,10 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
 
 <div class="row row-grid">
-  <h4>UMASS TAC 2016 system for relation extraction</h4>
+  <h4>UMASS TAC-KBP 2016 System for Relation Extraction</h4>
   <div class="col-6">
     <img src="../assets/img/proj6-nlp-UMASS TAC 2016.png" class="img-responsive" width="100%">
   </div>
@@ -168,7 +179,7 @@ display_grids: false
     </p>
   </div>
 </div>
-
+<br>
 
 
 
@@ -192,6 +203,7 @@ display_grids: false
   </p>
   </div>
 </div>
+<br>
 
 <div class="row row-grid">
   <h4>Decomposi-tion of Multiple Foreground Co-segmentation</h4>
@@ -207,6 +219,7 @@ display_grids: false
     </p>
   </div>
 </div>
+<br>
 
 <div class="row row-grid">
   <h4>Superpixel-Based Large Displacement Optical Flow</h4>
@@ -221,7 +234,7 @@ display_grids: false
     </p>
   </div>
 </div>
-
+<br>
 
 
 <!-- [Grids] pages/projects.md -->
