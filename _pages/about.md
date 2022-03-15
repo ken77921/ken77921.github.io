@@ -6,7 +6,7 @@ subtitle: 張浩軒
 
 profile:
   align: right
-  image: profile-hschang-3.jpeg
+  image: profile-hschang-4.jpeg
   image_circular: false # crops the image to make it circular
   
 news: false  # includes a list of news items
