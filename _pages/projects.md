@@ -143,7 +143,7 @@ display_grids: false
 </div>
 
 
-<hr class="hr-cat">
+<hr style="margin: 10px 0 10px 0;">
 <div class="div-cat-header">
   <h2 id="header-NLP">Natural Language Processing</h2>
 </div>
