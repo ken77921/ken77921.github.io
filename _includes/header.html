@@ -71,7 +71,8 @@
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
-              {%- if p.dropdown %}
+              <!-- {%- if p.dropdown %} -->
+              {%- if p.dropdown and page.title == p.title %}
               {%- assign has_active_child = false -%}
               {%- for child in p.children -%}
               {%- if page.title == child.title -%}
@@ -84,11 +85,10 @@
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-                -->
 
                 <!-- Dropdown -->
                 <!-- Rmv dropdown menu from navbar-->
-                {%- if page.title == p.title -%} <!-- test -->
+                <!-- {%- if page.title == p.title -%} -->
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                   {%- for child in p.children -%}
                   {%- if child.title == 'divider' %}
@@ -98,7 +98,7 @@
                   {%- endif -%}
                   {% endfor %}
                 </div>
-                {%- endif -%} <!-- -->
+                <!-- {%- endif -%} -->
                 
               </li>
               {%- else %}
