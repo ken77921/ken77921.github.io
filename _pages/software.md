@@ -43,7 +43,7 @@ display_grids: false
   <p>Demo code to visualize predicted exercise relationships <a href="">(GAE for python)</a></p>
   </div>
 </div>
-
+<br>
 
 <!-- 02.22[CY] -->
 <hr>
