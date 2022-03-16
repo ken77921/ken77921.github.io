@@ -46,6 +46,7 @@ display_grids: false
 
 
 <!-- 02.22[CY] -->
+<hr>
 <div class="div-cat-header">
   <h2>Computer Vision and Multimedia</h2>
 </div>
