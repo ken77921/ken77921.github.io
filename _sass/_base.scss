@@ -633,9 +633,12 @@ footer.sticky-bottom {
 //.row-grid + .row-grid {
 .row-grid {
 //    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
+.row-grid + .hr {
+  margin-top: 1rem;
+}
 
 // Publications
 
