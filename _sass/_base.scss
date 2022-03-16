@@ -380,7 +380,8 @@ footer.sticky-bottom {
     color: var(--global-cat-header-color);
   }
 }
-.row-grid + .row-grid {
+//.row-grid + .row-grid {
+.row-grid {
     margin-top: 15px;
 }
 

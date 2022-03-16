@@ -23,7 +23,6 @@ display_grids: false
 -->
 
 <!-- 02.22[CY] -->
-<hr>
 <div class="div-cat-header">
   <h2>Multi-facet Embedding for Language Modeling</h2>
 </div>
@@ -39,7 +38,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Predicting the Future Topics for Interactive Language Generation</h4>
@@ -53,7 +52,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Multi-facet Embeddings for Distantly Supervised Relation Extraction</h4>
@@ -67,7 +66,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Predicting Cluster Centers for Sentence Representation</h4>
@@ -80,14 +79,14 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
 
 
-<br>
+
+<hr>
 <div class="div-cat-header">
   <h2>Active Learning and Crowdsourcing</h2>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Overcoming Practical Issues of Deep Active Learning</h4>
@@ -101,7 +100,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Active Sampling for Estimating Quality of Experience (QoE) Model</h4>
@@ -117,7 +116,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Student Modeling and Prerequisite Verification in Knowledge Tree</h4>
@@ -133,7 +132,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Emphasize Uncertain Examples in Supervised Learning</h4>
@@ -146,13 +145,13 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
 
-<br>
+
+<hr>
 <div class="div-cat-header">
   <h2>Natural Language Processing</h2>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Distributional Inclusion Vector Embedding for Unsupevised Hypernym Detection</h4>
@@ -165,7 +164,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>UMASS TAC-KBP 2016 System for Relation Extraction</h4>
@@ -178,15 +177,15 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
 
 
 
-<br>
+
+<hr>
 <div class="div-cat-header">
   <h2>Computer Vision (Clustering and Matching)</h2>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Hierarchical Image Segmentation without Training</h4>
@@ -202,7 +201,7 @@ display_grids: false
   </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Decomposi-tion of Multiple Foreground Co-segmentation</h4>
@@ -218,7 +217,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 <div class="row row-grid">
   <h4>Superpixel-Based Large Displacement Optical Flow</h4>
@@ -233,7 +232,7 @@ display_grids: false
     </p>
   </div>
 </div>
-<br>
+
 
 
 <!-- [Grids] pages/projects.md -->
