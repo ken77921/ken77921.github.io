@@ -23,24 +23,28 @@ display_grids: false
 <div>
   <h4>Multi-facet Embeddings</h4>
   <div>
-    <p>
-    Interactive Language Generation <a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a><br>
-    Multi-facet Relation Extraction <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a>
-    </p>
+    <ul style="list-style-type:circle;">
+      <li>Interactive Language Generation <a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a></li>
+      <li>Multi-facet Relation Extraction <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a></li>
+    </ul>
   </div>
 </div>
 
 <div>
   <h4>Unsupervised Hypernym Detection</h4>
   <div>
-    <p>Distributional Inclusion Vector Embedding <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">(tensorflow and python)</a></p>
+    <ul style="list-style-type:circle;">
+      <li>Distributional Inclusion Vector Embedding <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">(tensorflow and python)</a></li>
+    </ul>
   </div>
 </div>
 
 <div>
   <h4>Educational Data Mining</h4>
   <div>
-  <p>Demo code to visualize predicted exercise relationships <a href="">(GAE for python)</a></p>
+    <ul style="list-style-type:circle;">
+      <li>Demo code to visualize predicted exercise relationships <a href="">(GAE for python)</a></li>
+    </ul>
   </div>
 </div>
 <br>
@@ -54,33 +58,34 @@ display_grids: false
 <div>
   <h4>Unsupervised Segmentation</h4>
   <div>
-  <p>
-    Hierarchical Image Segmentation without Training <a href="http://mml.citi.sinica.edu.tw/papers/HDC_code_ACCV_2014/">(Matlab)</a><br>
-    Mutiple Foreground Cosegmentation Decomposition <a href="http://mml.citi.sinica.edu.tw/papers/MFC_code_CVIU_2015">(Matlab)</a><br>
-    Efficient Hierarchical Graph-based Video Segmentation <a href="http://mml.citi.sinica.edu.tw/papers/GBH_code_ACCV_2014">(C/C++ for Windows)</a><br>
+  <ul style="list-style-type:circle;">
+    <li>Hierarchical Image Segmentation without Training <a href="http://mml.citi.sinica.edu.tw/papers/HDC_code_ACCV_2014/">(Matlab)</a></li>
+    <li>Mutiple Foreground Cosegmentation Decomposition <a href="http://mml.citi.sinica.edu.tw/papers/MFC_code_CVIU_2015">(Matlab)</a></li>
+    <li>Efficient Hierarchical Graph-based Video Segmentation <a href="http://mml.citi.sinica.edu.tw/papers/GBH_code_ACCV_2014">(C/C++ for Windows)</a></li>
     ~10 times faster than the original from <a href="https://cse.buffalo.edu/~jcorso/r/supervoxels/">LIBSVX</a>
-  </p>
+  </ul>
+
   </div>
 </div>
 
 <div>
   <h4>Clustering</h4>
   <div>
-  <p>
-    Efficient Kmeans Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47737/versions/4/download/zip">(C/C++ with Matlab wrapper)</a>
+  <ul style="list-style-type:circle;">
+    <li>Efficient Kmeans Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47737/versions/4/download/zip">(C/C++ with Matlab wrapper)</a></li>
     ~3 times faster than Matlab statistical toolbox<br>
-    Efficient GMM Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47741/versions/2/download/zip">(C/C++ with Matlab wrapper)</a><br>
+    <li>Efficient GMM Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47741/versions/2/download/zip">(C/C++ with Matlab wrapper)</a></li>
     ~6 times faster than Matlab statistical toolbox
-  </p>
+  </ul>
   </div>
 </div>
 
 <div>
   <h4>Optical Flow</h4>
   <div>
-  <p>
-    Superpixel-Based Large Displacement Optical Flow <a href="http://mml.citi.sinica.edu.tw/papers/SPLDOF_code.php">(Matlab)</a>
-  </p>
+  <ul>
+    <li>Superpixel-Based Large Displacement Optical Flow <a href="http://mml.citi.sinica.edu.tw/papers/SPLDOF_code.php">(Matlab)</a></li>
+  </ul>
   </div>
 </div>
 
