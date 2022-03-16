@@ -81,7 +81,7 @@ display_grids: false
 </div>
 
 
-<hr calss="hr-cat">
+<hr>
 <div class="div-cat-header">
   <h2 id="header-active-learning">Active Learning and Crowdsourcing</h2>
 </div>
@@ -143,7 +143,7 @@ display_grids: false
 </div>
 
 
-<hr style="padding: 10px 0 10px 0;">
+<hr>
 <div class="div-cat-header">
   <h2 id="header-NLP">Natural Language Processing</h2>
 </div>
