@@ -5,12 +5,14 @@ nav: true
 nav_order: 8
 dropdown: true
 children: 
-    - title: Projects
-      permalink: /Projects/
-    - title: divider
+    - title: Multi-facet Embedding for Language Modeling
+      permalink: /Projects/#header-multifacet-embedding-LM/
     - title: Active Learning and Crowdsourcing
-      permalink: /header-active-learning/
+      permalink: /Projects/#header-active-learning/
+    - title: Natural Language Processing
+      permalink: /Projects/#header-NLP/
+    - title: Computer Vision (Clustering and Matching)
+      permalink: /Projects/#header-CV
+    
     - title: divider
-    - title: Active Learning and Crowdsourcing
-      permalink: /#header-active-learning/
 ---

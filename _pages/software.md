@@ -83,7 +83,7 @@ display_grids: false
 <div>
   <h4>Optical Flow</h4>
   <div>
-  <ul>
+  <ul style="list-style-type:circle;">
     <li>Superpixel-Based Large Displacement Optical Flow <a href="http://mml.citi.sinica.edu.tw/papers/SPLDOF_code.php">(Matlab)</a></li>
   </ul>
   </div>
