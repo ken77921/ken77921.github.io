@@ -81,8 +81,7 @@ display_grids: false
 </div>
 
 
-
-<hr>
+<hr calss="hr-cat">
 <div class="div-cat-header">
   <h2>Active Learning and Crowdsourcing</h2>
 </div>
