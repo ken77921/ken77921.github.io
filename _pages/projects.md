@@ -24,11 +24,10 @@ display_grids: false
 -->
 
 <!-- 02.22[CY] -->
-<br>
+<hr>
 <div class="div-cat-header">
   <h2>Multi-facet Embedding for Language Modeling</h2>
 </div>
-<br>
 
 <div class="row row-grid">
   <h4>Why Multiple Embeddings are Better in LM's Output Softmax Layer</h4>
