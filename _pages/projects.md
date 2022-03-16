@@ -28,8 +28,8 @@ display_grids: false
   <h2>Multi-facet Embedding for Language Modeling</h2>
 </div>
 
+<h4>Why Multiple Embeddings are Better in LM's Output Softmax Layer</h4>
 <div class="row row-grid">
-  <h4>Why Multiple Embeddings are Better in LM's Output Softmax Layer</h4>
   <div class="col-6">
     <img src="../assets/img/Multi-facet_Softmax.png" class="img-responsive" width="100%">
   </div>
