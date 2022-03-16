@@ -1,12 +1,15 @@
 ---
 layout: page
-title: submenus
+title: Projects
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Projects
+      permalink: /Projects/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Active Learning and Crowdsourcing
+      permalink: /header-active-learning/
+    - title: divider
+    - title: Active Learning and Crowdsourcing
+      permalink: /#header-active-learning/
 ---
