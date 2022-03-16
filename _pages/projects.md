@@ -40,8 +40,8 @@ display_grids: false
 </div>
 
 
+<h4>Predicting the Future Topics for Interactive Language Generation</h4>
 <div class="row row-grid">
-  <h4>Predicting the Future Topics for Interactive Language Generation</h4>
   <div class="col-6">
     <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
   </div>
@@ -54,8 +54,8 @@ display_grids: false
 </div>
 
 
-<div class="row row-grid">
-  <h4>Multi-facet Embeddings for Distantly Supervised Relation Extraction</h4>
+<h4>Multi-facet Embeddings for Distantly Supervised Relation Extraction</h4>
+<div class="row row-grid">  
   <div class="col-6">
     <img src="../assets/img/proj2-nlp-Multi-facet Embeddings for Relation Extraction.png" class="img-responsive" width="100%">
   </div>
@@ -67,9 +67,8 @@ display_grids: false
   </div>
 </div>
 
-
+<h4>Predicting Cluster Centers for Sentence Representation</h4>
 <div class="row row-grid">
-  <h4>Predicting Cluster Centers for Sentence Representation</h4>
   <div class="col-6">
     <img src="../assets/img/proj3-nlp-Multi-facet Embeddings for Sentence Representation.png" class="img-responsive" width="100%">
   </div>
@@ -87,9 +86,8 @@ display_grids: false
   <h2>Active Learning and Crowdsourcing</h2>
 </div>
 
-
+<h4>Overcoming Practical Issues of Deep Active Learning</h4>
 <div class="row row-grid">
-  <h4>Overcoming Practical Issues of Deep Active Learning</h4>
   <div class="col-6">
     <img src="../assets/img/proj4-nlp-Overcoming Practical Issues of Deep Active Learning.png" class="img-responsive" width="100%">
   </div>
@@ -102,8 +100,8 @@ display_grids: false
 </div>
 
 
+<h4>Active Sampling for Estimating Quality of Experience (QoE) Model</h4>
 <div class="row row-grid">
-  <h4>Active Sampling for Estimating Quality of Experience (QoE) Model</h4>
   <div class="col-6">
     <img src="../assets/img/active_QoE.png" class="img-responsive" width="100%">
   </div>
@@ -117,9 +115,8 @@ display_grids: false
   </div>
 </div>
 
-
+<h4>Student Modeling and Prerequisite Verification in Knowledge Tree</h4>
 <div class="row row-grid">
-  <h4>Student Modeling and Prerequisite Verification in Knowledge Tree</h4>
   <div class="col-6">
     <img src="../assets/img/proj8-education-student modeling.png" class="img-responsive" width="100%">
   </div>
@@ -133,9 +130,8 @@ display_grids: false
   </div>
 </div>
 
-
+<h4>Emphasize Uncertain Examples in Supervised Learning</h4>
 <div class="row row-grid">
-  <h4>Emphasize Uncertain Examples in Supervised Learning</h4>
   <div class="col-6">
     <img src="../assets/img/proj7-nn.png" class="img-responsive" width="100%">
   </div>
@@ -152,9 +148,8 @@ display_grids: false
   <h2>Natural Language Processing</h2>
 </div>
 
-
+<h4>Distributional Inclusion Vector Embedding for Unsupevised Hypernym Detection</h4>
 <div class="row row-grid">
-  <h4>Distributional Inclusion Vector Embedding for Unsupevised Hypernym Detection</h4>
   <div class="col-6">
     <img src="../assets/img/proj5-nlp-DIVE.png" class="img-responsive" width="100%">
   </div>
@@ -165,9 +160,8 @@ display_grids: false
   </div>
 </div>
 
-
+<h4>UMASS TAC-KBP 2016 System for Relation Extraction</h4>
 <div class="row row-grid">
-  <h4>UMASS TAC-KBP 2016 System for Relation Extraction</h4>
   <div class="col-6">
     <img src="../assets/img/proj6-nlp-UMASS TAC 2016.png" class="img-responsive" width="100%">
   </div>
@@ -179,16 +173,13 @@ display_grids: false
 </div>
 
 
-
-
 <hr>
 <div class="div-cat-header">
   <h2>Computer Vision (Clustering and Matching)</h2>
 </div>
 
-
+<h4>Hierarchical Image Segmentation without Training</h4>
 <div class="row row-grid">
-  <h4>Hierarchical Image Segmentation without Training</h4>
   <div class="col-6">
     <img src="../assets/img/proj10-cv-Hierarchical Image Segmentation without Training.png" class="img-responsive" width="100%">
   </div>
@@ -202,9 +193,8 @@ display_grids: false
   </div>
 </div>
 
-
+<h4>Decomposi-tion of Multiple Foreground Co-segmentation</h4>
 <div class="row row-grid">
-  <h4>Decomposi-tion of Multiple Foreground Co-segmentation</h4>
   <div class="col-6">
     <img src="../assets/img/MFC.png" class="img-responsive" width="100%">
   </div>
@@ -218,9 +208,8 @@ display_grids: false
   </div>
 </div>
 
-
+<h4>Superpixel-Based Large Displacement Optical Flow</h4>
 <div class="row row-grid">
-  <h4>Superpixel-Based Large Displacement Optical Flow</h4>
   <div class="col-6">
     <img src="../assets/img/proj12-cv-Superpixel-Based Large Displacement Optical Flow.png" class="img-responsive" width="100%">
   </div>
