@@ -380,11 +380,16 @@ footer.sticky-bottom {
     color: var(--global-cat-header-color);
   }
 }
+
+.row .row-grid {
+  text-align: left;
+}
+
 //.row-grid + .row-grid {
 .row-grid {
 //    margin-top: 15px;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 
