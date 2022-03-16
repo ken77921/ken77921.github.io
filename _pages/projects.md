@@ -25,7 +25,7 @@ display_grids: false
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
-  <h2>Multi-facet Embedding for Language Modeling</h2>
+  <h2 id="header-multifacet-embedding-LM">Multi-facet Embedding for Language Modeling</h2>
 </div>
 
 <h4>Why Multiple Embeddings are Better in LM's Output Softmax Layer</h4>
@@ -83,7 +83,7 @@ display_grids: false
 
 <hr calss="hr-cat">
 <div class="div-cat-header">
-  <h2>Active Learning and Crowdsourcing</h2>
+  <h2 id="header-active-learning">Active Learning and Crowdsourcing</h2>
 </div>
 
 <h4>Overcoming Practical Issues of Deep Active Learning</h4>
@@ -145,7 +145,7 @@ display_grids: false
 
 <hr class="hr-cat">
 <div class="div-cat-header">
-  <h2>Natural Language Processing</h2>
+  <h2 id="header-NLP">Natural Language Processing</h2>
 </div>
 
 <h4>Distributional Inclusion Vector Embedding for Unsupevised Hypernym Detection</h4>
@@ -175,7 +175,7 @@ display_grids: false
 
 <hr>
 <div class="div-cat-header">
-  <h2>Computer Vision (Clustering and Matching)</h2>
+  <h2 id="header-CV">Computer Vision (Clustering and Matching)</h2>
 </div>
 
 <h4>Hierarchical Image Segmentation without Training</h4>
