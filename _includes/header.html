@@ -87,7 +87,7 @@
 
                 <!-- Dropdown -->
                 <!-- Rmv dropdown menu from navbar-->
-                
+                {%- if page.title == p.title -%} <!-- test -->
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                   {%- for child in p.children -%}
                   {%- if child.title == 'divider' %}
@@ -97,6 +97,7 @@
                   {%- endif -%}
                   {% endfor %}
                 </div>
+                {%- endif -%} <!-- -->
                 
               </li>
               {%- else %}

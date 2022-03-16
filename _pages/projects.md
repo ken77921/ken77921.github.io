@@ -90,7 +90,7 @@ display_grids: false
   </div>
 </div>
 
-
+<br>
 <hr>
 <div class="div-cat-header">
   <h2 id="header-active-learning">Active Learning and Crowdsourcing</h2>
@@ -152,7 +152,7 @@ display_grids: false
   </div>
 </div>
 
-
+<br>
 <hr>
 <div class="div-cat-header">
   <h2 id="header-NLP">Natural Language Processing</h2>
