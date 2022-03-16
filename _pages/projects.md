@@ -4,6 +4,16 @@ title: Projects
 permalink: /projects/
 description:
 nav: true
+dropdown: true
+children: 
+    - title: Multi-facet Embedding for Language Modeling
+      permalink: /projects/#header-multifacet-embedding-LM
+    - title: Active Learning and Crowdsourcing
+      permalink: /projects/#header-active-learning
+    - title: Natural Language Processing
+      permalink: /projects/#header-NLP
+    - title: Computer Vision (Clustering and Matching)
+      permalink: /projects/#header-CV
 
 display_categories: [Multi-facet Embedding for Language Modeling, Active Learning and Crowdsourcing, Natural Language Processing, Computer Vision (Clustering and Matching)]
 #display_categories: [Natural language processing, Neural network, Education, Computer vision and multimedia]
