@@ -19,6 +19,7 @@ display_categories: [Multi-facet Embedding for Language Modeling, Active Learnin
 #display_categories: [Natural language processing, Neural network, Education, Computer vision and multimedia]
 horizontal: false
 display_grids: false
+title_order: 5
 ---
 <!--
 <div class="row row-grid">
