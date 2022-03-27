@@ -186,8 +186,24 @@ title_order: 5
 
 <hr>
 <div class="div-cat-header">
-  <h2 id="header-CV">Computer Vision (Clustering and Matching)</h2>
+  <h2 id="header-CV">Computer Vision (Unsupervised Clustering and Matching)</h2>
 </div>
+
+<h4>Decomposition of Multiple Foreground Co-segmentation</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/MFC.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+    We proposed an efficient algorithm that decomposes the unsupervised Multiple Foreground Co-segmentation problem into three sub-problems: segmentation, matching, and figure-ground classification.
+    </p>
+    <p>
+    Our method improves the accuracy of the state-of-the-art method by 13% in a standard benchmark (<a href="../assets/pdf/proj11-cv-Decomposition of Multiple Foreground Co-segmentation-paper.pdf" download="paper-cviu2015-Optimizingthedecompositionformultipleforegroundcosegmentation">Paper</a>, <a href="http://mml.citi.sinica.edu.tw/papers/MFC_code_CVIU_2015">Code</a>).
+    </p>
+  </div>
+</div>
+
 
 <h4>Hierarchical Image Segmentation without Training</h4>
 <div class="row row-grid">
@@ -201,21 +217,6 @@ title_order: 5
     <p>
     Our unsupervised hierarchical segmentation results achieve similar or better performance in several standard benchmarks compared with the current state-of-the-art methods based on supervised learning (<a href="../assets/pdf/proj10-cv-Hierarchical Image Segmentation without Training-paper.pdf" download="paper-accv2014-Simple-to-Complex Discriminative Clustering for Hierarchical Image Segmentation">Paper</a>, <a href="../assets/pdf/proj10-cv-Hierarchical Image Segmentation without Training-poster.pdf" download="poster-accv2014-Simple-to-Complex Discriminative Clustering for Hierarchical Image Segmentation">Poster</a>, <a href="http://mml.citi.sinica.edu.tw/papers/HDC_code_ACCV_2014/">Code</a>).
   </p>
-  </div>
-</div>
-
-<h4>Decomposi-tion of Multiple Foreground Co-segmentation</h4>
-<div class="row row-grid">
-  <div class="col-6">
-    <img src="../assets/img/MFC.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <p>
-    We proposed an efficient algorithm that decomposes the unsupervised Multiple Foreground Co-segmentation problem into three sub-problems: segmentation, matching, and figure-ground classification.
-    </p>
-    <p>
-    Our method improves the accuracy of the state-of-the-art method by 13% in a standard benchmark (<a href="../assets/pdf/proj11-cv-Decomposition of Multiple Foreground Co-segmentation-paper.pdf" download="paper-cviu2015-Optimizingthedecompositionformultipleforegroundcosegmentation">Paper</a>, <a href="http://mml.citi.sinica.edu.tw/papers/MFC_code_CVIU_2015">Code</a>).
-    </p>
   </div>
 </div>
 
