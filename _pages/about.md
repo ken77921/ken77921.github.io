@@ -17,7 +17,7 @@ title_order: 0
 ---
 
 
-I am seeking Postdoc positions starting Summer/Fall 2022. I'm currently in my final year of my PhD at the <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a> advised by Professor <a href="https://people.cs.umass.edu/~mccallum/">Andrew McCallum</a>. 
+I'm currently in my final year of my PhD at the <a href="https://www.cics.umass.edu/">University of Massachusetts Amherst</a> advised by Professor <a href="https://people.cs.umass.edu/~mccallum/">Andrew McCallum</a>. 
 
 My primary research goal is to build accurate semantic models of textual similarity and entailment in order to help knowledge workers efficiently navigate large text collections. To approach this goal, I addressed some fundamental limitations of self-supervised language models and active learning methods; I developed a state-of-the-art review-paper affinity estimation model that is adopted by <a href="https://openreview.net/">OpenReview</a> and used by many conferences, including ICLR and NeurIPS; I also developed unsupervised methods for hypernym detection and crowdsourcing methods for educational prerequisite estimation.
 
