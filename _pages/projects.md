@@ -36,7 +36,32 @@ title_order: 5
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
-  <h2 id="header-multifacet-embedding-LM">Multi-facet Embedding for Language Modeling</h2>
+  <h2 id="header-multifacet-embedding-LM">Multi-facet Embedding for Language Modeling (<a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3783&context=dissertations_2">PhD Thesis</a>, <a href="../assets/pdf/Haw-Shiuan_thesis_defense_slides.key">Slides</a>)</h2>
+</div>
+
+<h4>Why and When Pointer Networks Improve LMs and How to Do Even Better</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/dynamic_partitions.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      The softmax bottleneck (<a href="https://aclanthology.org/2022.acl-long.554.pdf">Chang and McCallum (2022)</a>) sometimes prevents the language models from predicting the desired distribution and the pointer networks can be used to break the bottleneck efficiently. Based on the finding, we propose the context/encoder partition by simplifying the pointer networks and the reranker partition to accelerate the word-by-word rerankers. By combining these softmax alternatives, softmax-CPR is significantly better and more efficient than mixture of softmax (MoS) in GPT-2, a state-of-the-art softmax alternative. In summarization experiments, without significantly decreasing its training/testing speed, softmax-CEPR based on T5-Small improves factCC score by 2 points in CNN/DM and XSUM dataset, and improves MAUVE scores by around 30% in BookSum paragraph-level dataset. (<a href="https://arxiv.org/abs/2305.12289">Paper</a>, <a href="https://github.com/iesl/Softmax-CPR">Code</a>)
+    </p>
+  </div>
+</div>
+
+<h4>Ensembling BERT almost without Additional Cost</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/multi-BERT_first_page.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      We propose Multi-CLS BERT, a novel ensembling method for CLS-based prediction tasks that is almost as efficient as a single BERT model. Multi-CLS BERT uses multiple CLS tokens with a parameterization and objective that encourages their diversity. Thus instead of fine-tuning each BERT model in an ensemble (and running them all at test time), we need only fine-tune our single Multi-CLS BERT model (and run the one model at test time, ensembling just the multiple final CLS embeddings). To test its effectiveness, we build Multi-CLS BERT on top of a state-of-the-art pretraining method for BERT (Aroca-Ouellette and Rudzicz, 2020). In experiments on GLUE and SuperGLUE we show that our Multi-CLS BERT reliably improves both overall accuracy and confidence estimation. When only 100 training samples are available in GLUE, the Multi-CLS BERT_Base model can even outperform the corresponding BERT_Large model. We analyze the behavior of our Multi-CLS BERT, showing that it has many of the same characteristics and behavior as a typical BERT 5-way ensemble, but with nearly 4-times less computation and memory.
+       (<a href="https://arxiv.org/abs/2210.05043">Paper</a>, <a href="https://github.com/iesl/multicls/">Code</a>)
+    </p>
+  </div>
 </div>
 
 <h4>Why Multiple Embeddings are Better in LM's Output Softmax Layer</h4>
@@ -46,11 +71,10 @@ title_order: 5
   </div>
   <div class="col">
     <p>
-      We theoretically show that this single hidden state cannot produce all probability distributions regardless of the language model (LM) size or training data size because the single hidden state embedding cannot be close to the embeddings of all the possible next words simultaneously when there are other interfering word embeddings between them. Our work not only deepens our understanding of softmax bottleneck and mixture of softmax (MoS) but also inspires us to propose multi-facet softmax (MFS) to address the limitations of MoS (<a href="https://openreview.net/forum?id=n0jZ0QyXzj">Paper</a>).
+      We theoretically show that this single hidden state cannot produce all probability distributions regardless of the language model (LM) size or training data size because the single hidden state embedding cannot be close to the embeddings of all the possible next words simultaneously when there are other interfering word embeddings between them. Our work not only deepens our understanding of softmax bottleneck and mixture of softmax (MoS) but also inspires us to propose multi-facet softmax (MFS) to address the limitations of MoS (<a href="https://aclanthology.org/2022.acl-long.554.pdf">Paper</a>, <a href="https://aclanthology.org/attachments/2022.acl-long.554.software.zip">Code</a>, <a href="https://screencast-o-matic.com/watch/c3fresVYo4M">Talk</a>, <a href="../assets/pdf/ACL2022_slides.pdf">Slides</a>, <a href="../assets/pdf/ACL2022_poster.pdf">Poster</a>).
     </p>
   </div>
 </div>
-
 
 <h4>Predicting the Future Topics for Interactive Language Generation</h4>
 <div class="row row-grid">
