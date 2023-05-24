@@ -25,6 +25,9 @@ title_order: 100
   <h4>Multi-facet Embeddings</h4>
   <div>
     <ul style="list-style-type:circle;">
+      <li>Better Output Softmax Alternatives for LM <a href="https://github.com/iesl/Softmax-CPR">(PyTorch and python)</a></li>
+      <li>Efficient BERT Ensembling <a href="https://github.com/iesl/multicls/">(PyTorch and python)</a></li>
+      <li>Paper-Reviewer Affinity Estimation <a href="https://github.com/openreview/openreview-expertise">(PyTorch and python)</a></li>
       <li>Interactive Language Generation <a href="https://github.com/iesl/interactive_LM">(PyTorch and python)</a></li>
       <li>Multi-facet Relation Extraction <a href="https://github.com/rohanpaul11/multifacet-re">(PyTorch and python)</a></li>
     </ul>
