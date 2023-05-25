@@ -36,8 +36,15 @@ title_order: 5
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
-  <h2 id="header-multifacet-embedding-LM">Multi-facet Embedding for Language Modeling (<a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3783&context=dissertations_2">PhD Thesis</a>, <a href="../assets/pdf/Haw-Shiuan_thesis_defense_slides.key">Slides</a>)</h2>
+  <h2 id="header-multifacet-embedding-LM">Multi-facet Embedding for Language Modeling</h2>
 </div>
+
+<img src="../assets/img/contrastive_learning.png" class="img-responsive" width="100%">
+<p>In this project, we study the theoretical limitations of the single context embedding in LMs and how the theoretical analyses suggest new alternative softmax layers that encode a context as multiple embeddings. The proposed alternatives achieve better perplexity than the mixture of softmax (MoS), especially given an ambiguous context, without adding significant computational cost to LMs. Our approaches also let GPT-2 learn to properly copy the entities from the context, which increases the coherence of the generated text without requiring any labels.
+
+In addition to predicting the next word, we also use multiple CLS embeddings to improve state-of-the-art pretraining methods for BERT on natural language understanding (NLU) benchmarks without introducing significant extra parameters or computations, especially when the training datasets are small. Furthermore, we show that our multi-facet embeddings improve the sequential recommendation, scientific paper embeddings, distantly supervised relation extraction, and cold-start citation recommendation. Finally, we use the multiple vector embeddings to predict the future topics of a context, and build on the basis, we propose a novel interactive language generation framework. (<a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3783&context=dissertations_2">PhD Thesis</a>, <a href="../assets/pdf/Haw-Shiuan_thesis_defense_slides.key">Slides</a>)
+</p>
+<br>
 
 <h4>Why and When Pointer Networks Improve LMs and How to Do Even Better</h4>
 <div class="row row-grid">
@@ -120,6 +127,7 @@ title_order: 5
 <div class="div-cat-header">
   <h2 id="header-active-learning">Active Learning and Crowdsourcing</h2>
 </div>
+<br>
 
 <h4>Overcoming Practical Issues of Deep Active Learning</h4>
 <div class="row row-grid">
@@ -182,6 +190,7 @@ title_order: 5
 <div class="div-cat-header">
   <h2 id="header-NLP">Natural Language Processing</h2>
 </div>
+<br>
 
 <h4>Distributional Inclusion Vector Embedding for Unsupevised Hypernym Detection</h4>
 <div class="row row-grid">
@@ -207,11 +216,12 @@ title_order: 5
   </div>
 </div>
 
-
+<br>
 <hr>
 <div class="div-cat-header">
   <h2 id="header-CV">Computer Vision (Unsupervised Clustering and Matching)</h2>
 </div>
+<br>
 
 <h4>Decomposition of Multiple Foreground Co-segmentation</h4>
 <div class="row row-grid">
