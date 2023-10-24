@@ -19,6 +19,17 @@ title_order: 100
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
+  <h2>Recommendation</h2>
+</div>
+<div>
+  <h4>Multi-facet Embeddings</h4>
+  <div>
+    <ul style="list-style-type:circle;">
+    <li>Better Output Softmax Alternatives for SASRec and GRU4Rec<a href="https://github.com/iesl/softmax_CPR_recommend">(PyTorch, RecBole, and python)</a></li>
+    </ul>
+  </div>    
+</div>  
+<div class="div-cat-header">
   <h2>Natural Language Processing</h2>
 </div>
 <div>
@@ -76,9 +87,9 @@ title_order: 100
   <h4>Clustering</h4>
   <div>
   <ul style="list-style-type:circle;">
-    <li>Efficient Kmeans Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47737/versions/4/download/zip">(C/C++ with Matlab wrapper)</a></li>
+    <li>Efficient Kmeans Using Multiple Threads <a href="https://www.mathworks.com/matlabcentral/fileexchange/47737-kmeans_mt?s_tid=srchtitle_support_results_2_k-means%20thread">(C/C++ with Matlab wrapper)</a></li>
     ~3 times faster than Matlab statistical toolbox<br>
-    <li>Efficient GMM Using Multiple Threads <a href="http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/47741/versions/2/download/zip">(C/C++ with Matlab wrapper)</a></li>
+    <li>Efficient GMM Using Multiple Threads <a href="https://www.mathworks.com/matlabcentral/fileexchange/47741-gmm_mt?s_tid=srchtitle">(C/C++ with Matlab wrapper)</a></li>
     ~6 times faster than Matlab statistical toolbox
   </ul>
   </div>
