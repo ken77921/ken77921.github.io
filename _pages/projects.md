@@ -46,6 +46,18 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
 </p>
 <br>
 
+<h4>Softmax-CPR Improves Neural Sequential Recommenders by around 20%!</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/dynamic_partitions.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      The similarity structure of the global item embeddings in the softmax layer sometimes forces the single hidden state embedding to be close to new items when copying is a better choice, while sometimes forcing the hidden state to be close to the items from the input inappropriately. To alleviate the problem, we adapt the recently-proposed softmax alternatives such as (<a href="https://arxiv.org/abs/2305.12289">softmax-CPR</a> to sequential recommendation tasks and demonstrate that the new softmax architectures unleash the capability of the neural encoder on learning when to copy and when to exclude the items from the input sequence. By only making some simple modifications on the output softmax layer for SASRec and GRU4Rec, softmax-CPR achieves consistent improvement in 12 datasets. With almost the same model size, our best method not only improves the average NDCG@10 of GRU4Rec in 5 datasets with duplicated items by 10% (4%-17% individually) but also improves 7 datasets without duplicated items by 24% (8%-39%)! (<a href="http://arxiv.org/abs/2305.12289">Paper</a>, <a href="https://github.com/iesl/softmax_CPR_recommend">Code</a>)
+    </p>
+  </div>
+</div>
+
 <h4>Why and When Pointer Networks Improve LMs and How to Do Even Better</h4>
 <div class="row row-grid">
   <div class="col-6">
@@ -65,8 +77,8 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
   </div>
   <div class="col">
     <p>
-      We propose Multi-CLS BERT, a novel ensembling method for CLS-based prediction tasks that is almost as efficient as a single BERT model. Multi-CLS BERT uses multiple CLS tokens with a parameterization and objective that encourages their diversity. Thus instead of fine-tuning each BERT model in an ensemble (and running them all at test time), we need only fine-tune our single Multi-CLS BERT model (and run the one model at test time, ensembling just the multiple final CLS embeddings). To test its effectiveness, we build Multi-CLS BERT on top of a state-of-the-art pretraining method for BERT (Aroca-Ouellette and Rudzicz, 2020). In experiments on GLUE and SuperGLUE we show that our Multi-CLS BERT reliably improves both overall accuracy and confidence estimation. When only 100 training samples are available in GLUE, the Multi-CLS BERT_Base model can even outperform the corresponding BERT_Large model. We analyze the behavior of our Multi-CLS BERT, showing that it has many of the same characteristics and behavior as a typical BERT 5-way ensemble, but with nearly 4-times less computation and memory.
-       (<a href="https://arxiv.org/abs/2210.05043">Paper</a>, <a href="https://github.com/iesl/multicls/">Code</a>)
+      We propose Multi-CLS BERT, a novel ensembling method for CLS-based prediction tasks that is almost as efficient as a single BERT model. Multi-CLS BERT uses multiple CLS tokens with a parameterization and objective that encourages their diversity. Thus instead of fine-tuning each BERT model in an ensemble (and running them all at test time), we need only fine-tune our single Multi-CLS BERT model (and run the one model at test time, ensembling just the multiple final CLS embeddings). To test its effectiveness, we build Multi-CLS BERT on top of a state-of-the-art pretraining method for BERT (Aroca-Ouellette and Rudzicz, 2020). In experiments on GLUE and SuperGLUE we show that our Multi-CLS BERT reliably improves both overall accuracy and confidence estimation. When only 100 training samples are available in GLUE, the Multi-CLS BERT_Base model can even outperform the corresponding BERT_Large model. We analyze the behavior of our Multi-CLS BERT, showing that it has many of the same characteristics and behavior as a typical BERT 5-way ensemble, but with nearly 4-times less computation and memory. (<a href="https://arxiv.org/abs/2210.05043">Paper</a>, <a href="https://github.com/iesl/multicls/">Code</a>)
+      We also show that Multi-CLS BERT significantly improves multi-domain scientific paper encoder. (<a href="https://arxiv.org/abs/2309.04333">Paper</a>)
     </p>
   </div>
 </div>
