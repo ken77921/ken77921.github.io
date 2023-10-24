@@ -22,13 +22,16 @@ title_order: 100
   <h2>Recommendation</h2>
 </div>
 <div>
-  <h4>Multi-facet Embeddings</h4>
+  <h4>Multi-facet Embeddings for Sequential Recommendation</h4>
   <div>
     <ul style="list-style-type:circle;">
-    <li>Better Output Softmax Alternatives for SASRec and GRU4Rec<a href="https://github.com/iesl/softmax_CPR_recommend">(PyTorch, RecBole, and python)</a></li>
+    <li>Better Output Softmax Alternatives for SASRec and GRU4Rec <a href="https://github.com/iesl/softmax_CPR_recommend">(PyTorch, RecBole, and python)</a></li>
     </ul>
   </div>    
-</div>  
+</div>
+<br>
+
+<hr>  
 <div class="div-cat-header">
   <h2>Natural Language Processing</h2>
 </div>
