@@ -12,6 +12,6 @@ nav_order: 2
 My <a href="https://www.semanticscholar.org/author/144827671">Semantic Scholar</a> and <a href="https://scholar.google.com/citations?user=fdGXVd4AAAAJ">Google Scholar</a> pages
 
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography %}
 
 </div>
