@@ -176,6 +176,7 @@ collections:
   software:
     output: true
     permalink: /software/:path/
+<<<<<<< HEAD
   announcements:
     enabled: true
     scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -187,6 +188,8 @@ collections:
   research:
     output: true
     permalink: /research/:path/
+=======
+>>>>>>> 32fb143020252dbd48f6e0141d0dc5328b102df9
 news_limit: 5
 
 # -----------------------------------------------------------------------------
