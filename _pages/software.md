@@ -4,6 +4,7 @@ title: Software
 permalink: /software/
 description:
 nav: true
+nav_order: 4
 display_categories: [Natural Language Processing, Computer Vision and Multimedia]
 horizontal: false
 display_grids: false
