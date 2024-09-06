@@ -7,7 +7,9 @@ nav: true
 nav_order: 2
 dropdown: true
 children: 
-    - title: Multi-facet Embedding for Language Modeling
+    - title: Extrapolating the Distributions of an Infinitely Large Language Model
+      permalink: /projects/#header-curve-extrapolation-LM
+    - title: Multi-facet Embeddings for Language Modeling
       permalink: /projects/#header-multifacet-embedding-LM
     - title: Active Learning and Crowdsourcing
       permalink: /projects/#header-active-learning
@@ -36,13 +38,32 @@ title_order: 5
 
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
-  <h2 id="header-multifacet-embedding-LM">Multi-facet Embedding for Language Modeling</h2>
+  <h2 id="header-curve-extrapolation-LM">Extrapolating the Distributions of an Infinitely Large Language Model</h2>
+</div>
+
+<h4>Be Careful when LLM is more Uncertain than it should be.</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/REAL_sampling.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      In this work, we propose REAL (Residual Entropy from Asymptotic Line) sampling, a decoding method that achieves improved factuality and diversity over nucleus sampling by predicting an adaptive threshold of p. Specifically, REAL sampling predicts the step-wise likelihood of an LLM to hallucinate, and lowers the p threshold when an LLM is likely to hallucinate. Otherwise, REAL sampling increases the p threshold to boost the diversity. 
+      To predict the step-wise hallucination likelihood without supervision, we construct a Token-level Hallucination Forecasting (THF) model, which predicts the asymptotic entropy (i.e., inherent uncertainty) of the next token by extrapolating the next-token entropies of an infinitely large language model from a series of LLMs with different sizes. If a LLM's entropy is higher than the asymptotic entropy (i.e., the LLM is more uncertain than it should be), the THF model predicts a high hallucination hazard, which leads to a lower p threshold in REAL sampling. 
+      After combined with contrastive decoding, REAL sampling outperforms 9 sampling methods, and generates texts that are more factual than the greedy sampling and more diverse than the nucleus sampling with p=0.5 in the FactualityPrompts benchmark. 
+      (<a href="https://arxiv.org/abs/2406.07735">Paper</a>)
+    </p>
+  </div>
+</div>
+
+<div class="div-cat-header">
+  <h2 id="header-multifacet-embedding-LM">Multi-facet Embeddings for Language Modeling</h2>
 </div>
 
 <img src="../assets/img/contrastive_learning.png" class="img-responsive" width="100%">
 <p>In this project, we study the theoretical limitations of the single context embedding in LMs and how the theoretical analyses suggest new alternative softmax layers that encode a context as multiple embeddings. The proposed alternatives achieve better perplexity than the mixture of softmax (MoS), especially given an ambiguous context, without adding significant computational cost to LMs. Our approaches also let GPT-2 learn to properly copy the entities from the context, which increases the coherence of the generated text without requiring any labels.
 
-In addition to predicting the next word, we also use multiple CLS embeddings to improve state-of-the-art pretraining methods for BERT on natural language understanding (NLU) benchmarks without introducing significant extra parameters or computations, especially when the training datasets are small. Furthermore, we show that our multi-facet embeddings improve the sequential recommendation, scientific paper embeddings, distantly supervised relation extraction, and cold-start citation recommendation. Finally, we use the multiple vector embeddings to predict the future topics of a context, and build on the basis, we propose a novel interactive language generation framework. (<a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3783&context=dissertations_2">PhD Thesis</a>, <a href="../assets/pdf/Haw-Shiuan_thesis_defense_slides.key">Slides</a>)
+In addition to predicting the next word, we also use multiple CLS embeddings to improve state-of-the-art pretraining methods for BERT on natural language understanding (NLU) benchmarks without introducing significant extra parameters or computations, especially when the training datasets are small. Furthermore, we show that our multi-facet embeddings improve the sequential recommendation, scientific paper embeddings, distantly supervised relation extraction, and cold-start citation recommendation. Finally, we use the multiple vector embeddings to predict the future topics of a context, and build on the basis, we propose a novel interactive language generation framework. (<a href="https://web.archive.org/web/20221031171926id_/https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=3783&context=dissertations_2">PhD Thesis</a>, <a href="../assets/pdf/Haw-Shiuan_thesis_defense_slides.key">Slides</a>)
 </p>
 <br>
 
