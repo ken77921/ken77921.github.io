@@ -40,6 +40,7 @@ title_order: 5
 <div class="div-cat-header">
   <h2 id="header-curve-extrapolation-LM">Extrapolating the Distributions of an Infinitely Large Language Model</h2>
 </div>
+<br>
 
 <h4>Be Careful when LLM is more Uncertain than it should be.</h4>
 <div class="row row-grid">
@@ -48,8 +49,12 @@ title_order: 5
   </div>
   <div class="col">
     <p>
-      In this work, we propose REAL (Residual Entropy from Asymptotic Line) sampling, a decoding method that achieves improved factuality and diversity over nucleus sampling by predicting an adaptive threshold of p. Specifically, REAL sampling predicts the step-wise likelihood of an LLM to hallucinate, and lowers the p threshold when an LLM is likely to hallucinate. Otherwise, REAL sampling increases the p threshold to boost the diversity. 
+      We propose REAL (Residual Entropy from Asymptotic Line) sampling, a decoding method that achieves improved factuality and diversity over nucleus sampling by predicting an adaptive threshold of p. Specifically, REAL sampling predicts the step-wise likelihood of an LLM to hallucinate, and lowers the p threshold when an LLM is likely to hallucinate. Otherwise, REAL sampling increases the p threshold to boost the diversity. 
+    </p>
+    <p>
       To predict the step-wise hallucination likelihood without supervision, we construct a Token-level Hallucination Forecasting (THF) model, which predicts the asymptotic entropy (i.e., inherent uncertainty) of the next token by extrapolating the next-token entropies of an infinitely large language model from a series of LLMs with different sizes. If a LLM's entropy is higher than the asymptotic entropy (i.e., the LLM is more uncertain than it should be), the THF model predicts a high hallucination hazard, which leads to a lower p threshold in REAL sampling. 
+    </p>
+    <p>
       After combined with contrastive decoding, REAL sampling outperforms 9 sampling methods, and generates texts that are more factual than the greedy sampling and more diverse than the nucleus sampling with p=0.5 in the FactualityPrompts benchmark. 
       (<a href="https://arxiv.org/abs/2406.07735">Paper</a>)
     </p>
