@@ -84,7 +84,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
   </div>
 </div>
 
-<h4>Why and When Pointer Networks Improve LMs and How to Do Even Better</h4>
+<h4>Why do we use Attention in All Transformer Layers Except for the Last Softmax Layer? (aka Why and When Pointer Networks Improve LMs and How to Do Even Better)</h4>
 <div class="row row-grid">
   <div class="col-6">
     <img src="../assets/img/dynamic_partitions.png" class="img-responsive" width="100%">
