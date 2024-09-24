@@ -11,6 +11,8 @@ children:
       permalink: /projects/#header-curve-extrapolation-LM
     - title: Multi-facet Embeddings for Language Modeling
       permalink: /projects/#header-multifacet-embedding-LM
+    - title: Creative Language Model
+      permalink: /projects/#header-creative-LM
     - title: Active Learning and Crowdsourcing
       permalink: /projects/#header-active-learning
     - title: Natural Language Processing
@@ -36,20 +38,32 @@ title_order: 5
 </div>
 -->
 
+
+
 <!-- 02.22[CY] -->
 <div class="div-cat-header">
-  <h2 id="header-curve-extrapolation-LM">Extrapolating the Distributions of an Infinitely Large Language Model</h2>
+  <h2 id="header-curve-extrapolation-LM">Extrapolating the Distributions of an Infinitely-Large Language Model</h2>
 </div>
 <br>
 
-<h4>Be Careful when LLM is more Uncertain than it should be.</h4>
+<h4>Why Does Contrastive Decoding Work Well and How we could make it Better?</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/APD.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">  
+      To deepen our understanding of Contrastive Decoding (CD), we first theoretically prove that CD could be viewed as linearly extrapolating the next-token logits from a huge and hypothetical LM. We also highlight that the linear extrapolation could make CD unable to output the most obvious answers that have already been assigned high probabilities by the amateur LM. To overcome CD’s limitation, we propose a new unsupervised decoding method called <b>A</b>symptotic <b>P</b>robability <b>D</b>ecoding (APD). APD explicitly extrapolates the probability curves from the LMs of different sizes to infer the asymptotic probabilities (i.e., probabilities of an LLM with an infinite size) without inducing more inference costs than CD.
+  </div>
+</div>
+
+<h4>Be Careful when LLM is more Uncertain than it Should Be.</h4>
 <div class="row row-grid">
   <div class="col-6">
     <img src="../assets/img/REAL_sampling.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
     <p>
-      We propose REAL (Residual Entropy from Asymptotic Line) sampling, a decoding method that achieves improved factuality and diversity over nucleus sampling by predicting an adaptive threshold of p. Specifically, REAL sampling predicts the step-wise likelihood of an LLM to hallucinate, and lowers the p threshold when an LLM is likely to hallucinate. Otherwise, REAL sampling increases the p threshold to boost the diversity. 
+      We propose REAL (<b>R</b>esidual <b>E</b>ntropy from <b>A</b>symptotic <b>L</b>ine) sampling, a decoding method that achieves improved factuality and diversity over nucleus sampling by predicting an adaptive threshold of p. Specifically, REAL sampling predicts the step-wise likelihood of an LLM to hallucinate, and lowers the p threshold when an LLM is likely to hallucinate. Otherwise, REAL sampling increases the p threshold to boost the diversity. 
     </p>
     <p>
       To predict the step-wise hallucination likelihood without supervision, we construct a Token-level Hallucination Forecasting (THF) model, which predicts the asymptotic entropy (i.e., inherent uncertainty) of the next token by extrapolating the next-token entropies of an infinitely large language model from a series of LLMs with different sizes. If a LLM's entropy is higher than the asymptotic entropy (i.e., the LLM is more uncertain than it should be), the THF model predicts a high hallucination hazard, which leads to a lower p threshold in REAL sampling. 
@@ -60,6 +74,7 @@ title_order: 5
     </p>
   </div>
 </div>
+<br>
 
 <div class="div-cat-header">
   <h2 id="header-multifacet-embedding-LM">Multi-facet Embeddings for Language Modeling</h2>
@@ -72,7 +87,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
 </p>
 <br>
 
-<h4>Softmax-CPR Improves Neural Sequential Recommenders by around 20% in 12 Widely-Used Datasets!</h4>
+<h4>Simply Replacing the Ouput Softmax Layer Improves Neural Sequential Recommenders by around 20% in 12 Widely-Used Datasets!</h4>
 <div class="row row-grid">
   <div class="col-6">
     <img src="../assets/img/softmax_limits.png" class="img-responsive" width="100%">
@@ -96,7 +111,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
   </div>
 </div>
 
-<h4>Ensembling BERT almost without Additional Cost</h4>
+<h4>Ensembling BERT almost without Additional Cost!</h4>
 <div class="row row-grid">
   <div class="col-6">
     <img src="../assets/img/multi-BERT_first_page.png" class="img-responsive" width="100%">
@@ -117,19 +132,6 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
   <div class="col">
     <p>
       We theoretically show that this single hidden state cannot produce all probability distributions regardless of the language model (LM) size or training data size because the single hidden state embedding cannot be close to the embeddings of all the possible next words simultaneously when there are other interfering word embeddings between them. Our work not only deepens our understanding of softmax bottleneck and mixture of softmax (MoS) but also inspires us to propose multi-facet softmax (MFS) to address the limitations of MoS (<a href="https://aclanthology.org/2022.acl-long.554.pdf">Paper</a>, <a href="https://aclanthology.org/attachments/2022.acl-long.554.software.zip">Code</a>, <a href="https://screencast-o-matic.com/watch/c3fresVYo4M">Talk</a>, <a href="../assets/pdf/ACL2022_slides.pdf">Slides</a>, <a href="../assets/pdf/ACL2022_poster.pdf">Poster</a>).
-    </p>
-  </div>
-</div>
-
-<h4>Predicting the Future Topics for Interactive Language Generation</h4>
-<div class="row row-grid">
-  <div class="col-6">
-    <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <p>
-      We design a framework that displays multiple candidate upcoming topics, of which a user can select a subset to guide the generation. Our framework consists of two components: (1) a method that produces a set of candidate topics by predicting the centers of word clusters in the possible continuations, and (2) a text generation model whose output adheres to the chosen topics. The training of both components is self-supervised, using only unlabeled text. Our experiments demonstrate that our topic options are better than those of standard clustering approaches, and our framework often generates fluent sentences related to the chosen topics, as judged by automated metrics and crowdsourced workers
-      (<a href="http://arxiv.org/abs/2103.15335">Paper</a>, <a href="https://github.com/iesl/interactive_LM">Code</a>, <a href="https://slideslive.com/38954487/changing-the-mind-of-transformers-for-topicallycontrollable-language-generation">Talk</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-slides.key" download="slides-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Slides</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-poster.pdf" download="poster-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Poster</a>).
     </p>
   </div>
 </div>
@@ -161,6 +163,52 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
 </div>
 
 <br>
+
+
+<div class="div-cat-header">
+  <h2 id="header-creative-LM">Creative Language Model</h2>
+</div>
+<br>
+
+<h4>Automatically Measuring the Creativity of Large Language Models</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/CS4.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    Evaluating the creativity of large language models (LLMs) in story writing is difficult because LLM-generated stories could seemingly look creative but be very similar to some existing stories in their huge and proprietary training corpus. To overcome this challenge, we introduce a novel benchmark dataset, CS4, with varying levels of prompt specificity. By increasing the number of requirements/constraints in the prompt, we can increase the prompt specificity and hinder LLMs from retelling high-quality narratives in their training data. Consequently, CS4 empowers us to indirectly measure the LLMs' creativity without human annotations.
+  </div>
+</div>
+
+
+<h4>Coarse-to-Fine Story Generation by Constructing Entailment Hierarchy</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/EH.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    When users want to write a story with a language model (LM) assistant such as ChatGPT, it is often very difficult to provide a prompt that clearly specifies all their interests. For the providers of LM assistants, it is also difficult to ensure their output stories come from a dataset without copyright concerns. Motivated by these limitations, we propose a coarse-to-fine (C2F) tree-based story generation framework, which is called C2F-StoryTree, where the LM iteratively generates more and more specific story prompts based on a user’s input prompt and the desired plot selected by the user. To realize our C2F-StoryTree framework, we propose an entailment hierarchy (EH) text structure, in which a more specific response entails more general prompt (e.g., a story entails a summary). We also propose novel annotation tasks, decoding methods, and a human-and-machine-in-the-loop procedure to minimize the annotation cost of building the text structure. We build an entailment hierarchy dataset on top of the story datasets with desired licenses and styles, on which the service providers can fine-tune or evaluate their LMs. 
+  </div>
+</div>
+
+
+<h4>Predicting the Future Topics for Interactive Language Generation</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      We design a framework that displays multiple candidate upcoming topics, of which a user can select a subset to guide the generation. Our framework consists of two components: (1) a method that produces a set of candidate topics by predicting the centers of word clusters in the possible continuations, and (2) a text generation model whose output adheres to the chosen topics. The training of both components is self-supervised, using only unlabeled text. Our experiments demonstrate that our topic options are better than those of standard clustering approaches, and our framework often generates fluent sentences related to the chosen topics, as judged by automated metrics and crowdsourced workers
+      (<a href="http://arxiv.org/abs/2103.15335">Paper</a>, <a href="https://github.com/iesl/interactive_LM">Code</a>, <a href="https://slideslive.com/38954487/changing-the-mind-of-transformers-for-topicallycontrollable-language-generation">Talk</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-slides.key" download="slides-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Slides</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-poster.pdf" download="poster-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Poster</a>).
+    </p>
+  </div>
+</div>
+
+
+<br>
+
+
 <hr>
 <div class="div-cat-header">
   <h2 id="header-active-learning">Active Learning and Crowdsourcing</h2>
