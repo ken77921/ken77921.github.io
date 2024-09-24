@@ -55,6 +55,7 @@ title_order: 5
       To deepen our understanding of Contrastive Decoding (CD), we first theoretically prove that CD could be viewed as linearly extrapolating the next-token logits from a huge and hypothetical LM. We also highlight that the linear extrapolation could make CD unable to output the most obvious answers that have already been assigned high probabilities by the amateur LM. To overcome CD’s limitation, we propose a new unsupervised decoding method called <b>A</b>symptotic <b>P</b>robability <b>D</b>ecoding (APD). APD explicitly extrapolates the probability curves from the LMs of different sizes to infer the asymptotic probabilities (i.e., probabilities of an LLM with an infinite size) without inducing more inference costs than CD.
   </div>
 </div>
+<br>
 
 <h4>Be Careful when LLM is more Uncertain than it Should Be.</h4>
 <div class="row row-grid">
@@ -76,6 +77,7 @@ title_order: 5
 </div>
 <br>
 
+<hr>
 <div class="div-cat-header">
   <h2 id="header-multifacet-embedding-LM">Multi-facet Embeddings for Language Modeling</h2>
 </div>
@@ -165,6 +167,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
 <br>
 
 
+<hr>
 <div class="div-cat-header">
   <h2 id="header-creative-LM">Creative Language Model</h2>
 </div>
@@ -176,10 +179,15 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
     <img src="../assets/img/CS4.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    Evaluating the creativity of large language models (LLMs) in story writing is difficult because LLM-generated stories could seemingly look creative but be very similar to some existing stories in their huge and proprietary training corpus. To overcome this challenge, we introduce a novel benchmark dataset, CS4, with varying levels of prompt specificity. By increasing the number of requirements/constraints in the prompt, we can increase the prompt specificity and hinder LLMs from retelling high-quality narratives in their training data. Consequently, CS4 empowers us to indirectly measure the LLMs' creativity without human annotations.
+    <p>
+      Evaluating the creativity of large language models (LLMs) in story writing is difficult because LLM-generated stories could seemingly look creative but be very similar to some existing stories in their huge and proprietary training corpus. To overcome this challenge, we introduce a novel benchmark dataset, CS4, with varying levels of prompt specificity. By increasing the number of requirements/constraints in the prompt, we can increase the prompt specificity and hinder LLMs from retelling high-quality narratives in their training data. Consequently, CS4 empowers us to indirectly measure the LLMs' creativity without human annotations.
+    </p>
+    <p>
+      Our experiments on LLaMA, Gemma, and Mistral not only highlight the creativity challenges LLMs face when dealing with highly specific prompts but also reveal that different LLMs perform very differently under different numbers of constraints and achieve different balances between the model's instruction-following ability and narrative coherence. Additionally, our experiments on OLMo suggest that Learning from Human Feedback (LHF) can help LLMs select better stories from their training data but has limited influence in boosting LLMs' ability to produce creative stories that are unseen in the training corpora.
+    </p>
   </div>
 </div>
-
+<br>
 
 <h4>Coarse-to-Fine Story Generation by Constructing Entailment Hierarchy</h4>
 <div class="row row-grid">
@@ -190,6 +198,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
     When users want to write a story with a language model (LM) assistant such as ChatGPT, it is often very difficult to provide a prompt that clearly specifies all their interests. For the providers of LM assistants, it is also difficult to ensure their output stories come from a dataset without copyright concerns. Motivated by these limitations, we propose a coarse-to-fine (C2F) tree-based story generation framework, which is called C2F-StoryTree, where the LM iteratively generates more and more specific story prompts based on a user’s input prompt and the desired plot selected by the user. To realize our C2F-StoryTree framework, we propose an entailment hierarchy (EH) text structure, in which a more specific response entails more general prompt (e.g., a story entails a summary). We also propose novel annotation tasks, decoding methods, and a human-and-machine-in-the-loop procedure to minimize the annotation cost of building the text structure. We build an entailment hierarchy dataset on top of the story datasets with desired licenses and styles, on which the service providers can fine-tune or evaluate their LMs. 
   </div>
 </div>
+<br>
 
 
 <h4>Predicting the Future Topics for Interactive Language Generation</h4>
