@@ -11,7 +11,7 @@ children:
       permalink: /projects/#header-curve-extrapolation-LM
     - title: Multi-facet Embeddings for Language Modeling
       permalink: /projects/#header-multifacet-embedding-LM
-    - title: Creative Language Model
+    - title: Creative Generation of Language Models
       permalink: /projects/#header-creative-LM
     - title: Active Learning and Crowdsourcing
       permalink: /projects/#header-active-learning
@@ -169,7 +169,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
 
 <hr>
 <div class="div-cat-header">
-  <h2 id="header-creative-LM">Creative Language Model</h2>
+  <h2 id="header-creative-LM">Creative Generation of Language Models</h2>
 </div>
 <br>
 
@@ -195,10 +195,14 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
     <img src="../assets/img/EH.png" class="img-responsive" width="100%">
   </div>
   <div class="col">
-    When users want to write a story with a language model (LM) assistant such as ChatGPT, it is often very difficult to provide a prompt that clearly specifies all their interests. For the providers of LM assistants, it is also difficult to ensure their output stories come from a dataset without copyright concerns. Motivated by these limitations, we propose a coarse-to-fine (C2F) tree-based story generation framework, which is called C2F-StoryTree, where the LM iteratively generates more and more specific story prompts based on a user’s input prompt and the desired plot selected by the user. To realize our C2F-StoryTree framework, we propose an entailment hierarchy (EH) text structure, in which a more specific response entails more general prompt (e.g., a story entails a summary). We also propose novel annotation tasks, decoding methods, and a human-and-machine-in-the-loop procedure to minimize the annotation cost of building the text structure. We build an entailment hierarchy dataset on top of the story datasets with desired licenses and styles, on which the service providers can fine-tune or evaluate their LMs. 
+    When users want to write a story with a language model (LM) assistant such as ChatGPT, it is often very difficult to provide a prompt that clearly specifies all their interests. For the providers of LM assistants, it is also difficult to ensure their output stories come from a dataset without copyright concerns. Motivated by these limitations, we propose a coarse-to-fine (C2F) tree-based story generation framework, which is called C2F-StoryTree, where the LM iteratively generates more and more specific story prompts based on a user’s input prompt and the desired plot selected by the user. To realize our C2F-StoryTree framework, we propose an entailment hierarchy (EH) text structure, in which a more specific response entails more general prompt (e.g., a story entails a summary). We also propose novel annotation tasks, decoding methods, and a human-and-machine-in-the-loop procedure to minimize the annotation cost of building the text structure. We build an entailment hierarchy dataset on top of the story datasets with desired licenses and styles, on which the service providers can fine-tune or evaluate their LMs (<a href="https://www.amazon.science/publications/fine-to-coarse-entailment-hierarchy-construction-for-coarse-to-fine-story-generation">Paper</a>, <a href="../assets/pdf/HCI+NLP_entailment_hierarchy_talk.key">Slides</a>, <a href="../assets/pdf/NAACL_HCI_NLP_24_poster.pdf">Poster</a>). 
   </div>
 </div>
 <br>
+
+
+  
+
 
 
 <h4>Predicting the Future Topics for Interactive Language Generation</h4>
