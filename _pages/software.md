@@ -5,7 +5,7 @@ permalink: /software/
 description:
 nav: true
 nav_order: 4
-display_categories: [Natural Language Processing, Computer Vision and Multimedia]
+display_categories: [Recommendation, Natural Language Processing, Computer Vision and Multimedia]
 horizontal: false
 display_grids: false
 title_order: 100
@@ -36,6 +36,12 @@ title_order: 100
 <div class="div-cat-header">
   <h2>Natural Language Processing</h2>
 </div>
+
+<h4>Infinitely Large Language Model</h4>
+<div>
+  <li>Decoding Methods that Improve Factuality and Diversity (if you have multiple LLMs with different sizes) <a href="https://github.com/amazon-science/llm-asymptotic-decoding/">(PyTorch and python)</a></li>
+</div>
+
 <div>
   <h4>Multi-facet Embeddings</h4>
   <div>

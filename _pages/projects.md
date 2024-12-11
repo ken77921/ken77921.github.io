@@ -52,7 +52,7 @@ title_order: 5
     <img src="../assets/img/APD.png" class="img-responsive" width="100%">
   </div>
   <div class="col">  
-      To deepen our understanding of Contrastive Decoding (CD), we first theoretically prove that CD could be viewed as linearly extrapolating the next-token logits from a huge and hypothetical LM. We also highlight that the linear extrapolation could make CD unable to output the most obvious answers that have already been assigned high probabilities by the amateur LM. To overcome CD’s limitation, we propose a new unsupervised decoding method called <b>A</b>symptotic <b>P</b>robability <b>D</b>ecoding (APD). APD explicitly extrapolates the probability curves from the LMs of different sizes to infer the asymptotic probabilities (i.e., probabilities of an LLM with an infinite size) without inducing more inference costs than CD. (<a href="https://www.amazon.science/publications/explaining-and-improving-contrastive-decoding-by-extrapolating-the-probabilities-of-a-huge-and-hypothetical-lm">Paper</a>, <a href="https://go.screenpal.com/watch/cZ6tFEnc2Ta">Talk</a>, <a href="../assets/pdf/EMNLP_2024_APD_poster.pdf">Poster</a>, <a href="../assets/pdf/EMNLP_2024_APD_release.key">Slides</a>)
+      To deepen our understanding of Contrastive Decoding (CD), we first theoretically prove that CD could be viewed as linearly extrapolating the next-token logits from a huge and hypothetical LM. We also highlight that the linear extrapolation could make CD unable to output the most obvious answers that have already been assigned high probabilities by the amateur LM. To overcome CD’s limitation, we propose a new unsupervised decoding method called <b>A</b>symptotic <b>P</b>robability <b>D</b>ecoding (APD). APD explicitly extrapolates the probability curves from the LMs of different sizes to infer the asymptotic probabilities (i.e., probabilities of an LLM with an infinite size) without inducing more inference costs than CD. (<a href="https://www.amazon.science/publications/explaining-and-improving-contrastive-decoding-by-extrapolating-the-probabilities-of-a-huge-and-hypothetical-lm">Paper</a>, <a href="https://go.screenpal.com/watch/cZ6tFEnc2Ta">Talk</a>, <a href="../assets/pdf/EMNLP_2024_APD_poster.pdf">Poster</a>, <a href="../assets/pdf/EMNLP_2024_APD_release.key">Slides</a>, <a href="https://github.com/amazon-science/llm-asymptotic-decoding/">Code</a>)
   </div>
 </div>
 <br>
@@ -71,7 +71,7 @@ title_order: 5
     </p>
     <p>
       After combined with contrastive decoding, REAL sampling outperforms 9 sampling methods, and generates texts that are more factual than the greedy sampling and more diverse than the nucleus sampling with p=0.5 in the FactualityPrompts benchmark. 
-      (<a href="https://arxiv.org/abs/2406.07735">Paper</a>)
+      (<a href="https://arxiv.org/abs/2406.07735">Paper</a>, <a href="https://github.com/amazon-science/llm-asymptotic-decoding/">Code</a>)
     </p>
   </div>
 </div>
