@@ -332,7 +332,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
     We proposed an efficient algorithm that decomposes the unsupervised Multiple Foreground Co-segmentation problem into three sub-problems: segmentation, matching, and figure-ground classification.
     </p>
     <p>
-    Our method improves the accuracy of the state-of-the-art method by 13% in a standard benchmark (<a href="../assets/pdf/proj11-cv-Decomposition of Multiple Foreground Co-segmentation-paper.pdf" download="paper-cviu2015-Optimizingthedecompositionformultipleforegroundcosegmentation">Paper</a>, <a href="http://mml.citi.sinica.edu.tw/papers/MFC_code_CVIU_2015">Code</a>).
+    Our method improves the accuracy of the state-of-the-art method by 13% in a standard benchmark (<a href="../assets/pdf/proj11-cv-Decomposition of Multiple Foreground Co-segmentation-paper.pdf" download="paper-cviu2015-Optimizingthedecompositionformultipleforegroundcosegmentation">Paper</a>).
     </p>
   </div>
 </div>
@@ -348,7 +348,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
     We proposed a general framework that applies classifiers with different complexity to discriminate segments in an image.
     </p>
     <p>
-    Our unsupervised hierarchical segmentation results achieve similar or better performance in several standard benchmarks compared with the current state-of-the-art methods based on supervised learning (<a href="../assets/pdf/proj10-cv-Hierarchical Image Segmentation without Training-paper.pdf" download="paper-accv2014-Simple-to-Complex Discriminative Clustering for Hierarchical Image Segmentation">Paper</a>, <a href="../assets/pdf/proj10-cv-Hierarchical Image Segmentation without Training-poster.pdf" download="poster-accv2014-Simple-to-Complex Discriminative Clustering for Hierarchical Image Segmentation">Poster</a>, <a href="http://mml.citi.sinica.edu.tw/papers/HDC_code_ACCV_2014/">Code</a>).
+    Our unsupervised hierarchical segmentation results achieve similar or better performance in several standard benchmarks compared with the current state-of-the-art methods based on supervised learning (<a href="../assets/pdf/proj10-cv-Hierarchical Image Segmentation without Training-paper.pdf" download="paper-accv2014-Simple-to-Complex Discriminative Clustering for Hierarchical Image Segmentation">Paper</a>, <a href="../assets/pdf/proj10-cv-Hierarchical Image Segmentation without Training-poster.pdf" download="poster-accv2014-Simple-to-Complex Discriminative Clustering for Hierarchical Image Segmentation">Poster</a>).
   </p>
   </div>
 </div>
@@ -362,7 +362,7 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
     <p>
     We formulated our objective function at the superpixel level rather than the pixel level as the traditional optical flow method did.</p>
     <p>
-    Our method achieves a better large displacement matching capability than LDOF in videos with lower quality (<a href="../assets/pdf/proj12-cv-Superpixel-Based Large Displacement Optical Flow-paper.pdf" download="paper-icip2013-SUPERPIXEL-BASED LARGE DISPLACEMENT OPTICAL FLOW">Paper</a>, <a href="../assets/pdf/proj12-cv-Superpixel-Based Large Displacement Optical Flow-poster.pdf" download="poster-icip2013-SUPERPIXEL-BASED LARGE DISPLACEMENT OPTICAL FLOW">Poster</a>, <a href="http://mml.citi.sinica.edu.tw/papers/SPLDOF_code.php">Code</a>).
+    Our method achieves a better large displacement matching capability than LDOF in videos with lower quality (<a href="../assets/pdf/proj12-cv-Superpixel-Based Large Displacement Optical Flow-paper.pdf" download="paper-icip2013-SUPERPIXEL-BASED LARGE DISPLACEMENT OPTICAL FLOW">Paper</a>, <a href="../assets/pdf/proj12-cv-Superpixel-Based Large Displacement Optical Flow-poster.pdf" download="poster-icip2013-SUPERPIXEL-BASED LARGE DISPLACEMENT OPTICAL FLOW">Poster</a>).
     </p>
   </div>
 </div>

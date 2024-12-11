@@ -40,7 +40,9 @@ title_order: 100
 <div>
   <h4>Infinitely Large Language Model</h4>
   <div>
-    <li>Decoding Methods that Improve Factuality and Diversity (if you have multiple LLMs with different sizes) <a href="https://github.com/amazon-science/llm-asymptotic-decoding/">(PyTorch and python)</a></li>
+    <ul style="list-style-type:circle;">
+      <li>Decoding Methods that Improve Factuality and Diversity (if you have multiple LLMs with different sizes) <a href="https://github.com/amazon-science/llm-asymptotic-decoding/">(PyTorch and python)</a></li>
+    </ul>
   </div>
 </div>
 
@@ -63,35 +65,6 @@ title_order: 100
     <ul style="list-style-type:circle;">
       <li>Distributional Inclusion Vector Embedding <a href="https://github.com/iesl/Distributional-Inclusion-Vector-Embedding">(tensorflow and python)</a></li>
     </ul>
-  </div>
-</div>
-
-<div>
-  <h4>Educational Data Mining</h4>
-  <div>
-    <ul style="list-style-type:circle;">
-      <li>Demo code to visualize predicted exercise relationships <a href="">(GAE for python)</a></li>
-    </ul>
-  </div>
-</div>
-<br>
-
-<!-- 02.22[CY] -->
-<hr>
-<div class="div-cat-header">
-  <h2>Computer Vision and Multimedia</h2>
-</div>
-
-<div>
-  <h4>Unsupervised Segmentation</h4>
-  <div>
-  <ul style="list-style-type:circle;">
-    <li>Hierarchical Image Segmentation without Training <a href="http://mml.citi.sinica.edu.tw/papers/HDC_code_ACCV_2014/">(Matlab)</a></li>
-    <li>Mutiple Foreground Cosegmentation Decomposition <a href="http://mml.citi.sinica.edu.tw/papers/MFC_code_CVIU_2015">(Matlab)</a></li>
-    <li>Efficient Hierarchical Graph-based Video Segmentation <a href="http://mml.citi.sinica.edu.tw/papers/GBH_code_ACCV_2014">(C/C++ for Windows)</a></li>
-    ~10 times faster than the original from <a href="https://cse.buffalo.edu/~jcorso/r/supervoxels/">LIBSVX</a>
-  </ul>
-
   </div>
 </div>
 
