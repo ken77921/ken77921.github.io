@@ -37,9 +37,11 @@ title_order: 100
   <h2>Natural Language Processing</h2>
 </div>
 
-<h4>Infinitely Large Language Model</h4>
 <div>
-  <li>Decoding Methods that Improve Factuality and Diversity (if you have multiple LLMs with different sizes) <a href="https://github.com/amazon-science/llm-asymptotic-decoding/">(PyTorch and python)</a></li>
+  <h4>Infinitely Large Language Model</h4>
+  <div>
+    <li>Decoding Methods that Improve Factuality and Diversity (if you have multiple LLMs with different sizes) <a href="https://github.com/amazon-science/llm-asymptotic-decoding/">(PyTorch and python)</a></li>
+  </div>
 </div>
 
 <div>
