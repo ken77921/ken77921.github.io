@@ -68,6 +68,9 @@ title_order: 100
   </div>
 </div>
 
+<div class="div-cat-header">
+  <h2>Machine Learning</h2>
+</div>
 <div>
   <h4>Clustering</h4>
   <div>
@@ -80,14 +83,6 @@ title_order: 100
   </div>
 </div>
 
-<div>
-  <h4>Optical Flow</h4>
-  <div>
-  <ul style="list-style-type:circle;">
-    <li>Superpixel-Based Large Displacement Optical Flow <a href="http://mml.citi.sinica.edu.tw/papers/SPLDOF_code.php">(Matlab)</a></li>
-  </ul>
-  </div>
-</div>
 
 
 <!-- [Grids] pages/sw.md -->
