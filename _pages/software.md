@@ -67,6 +67,9 @@ title_order: 100
     </ul>
   </div>
 </div>
+<br>
+
+<hr> 
 
 <div class="div-cat-header">
   <h2>Machine Learning</h2>
@@ -81,6 +84,14 @@ title_order: 100
     ~6 times faster than Matlab statistical toolbox
   </ul>
   </div>
+  <h4>Educational Data Mining</h4>
+  <div>
+    <ul style="list-style-type:circle;">
+      <li>Demo code to visualize predicted exercise relationships <a href="https://drive.google.com/file/d/1V5nEwmVkPclj_ZR-bKt9xzW7ApT6ZJo-/view?usp=sharing">(GAE for python)</a></li>
+      <li>Predicting exercise relationships <a href="../assets/pdf/junyi_exer_relationship_released.zip">(R and python)</a></li>
+    </ul>
+  </div>
+</div>
 </div>
 
 
