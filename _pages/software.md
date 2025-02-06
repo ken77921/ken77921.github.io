@@ -4,7 +4,7 @@ title: Software
 permalink: /software/
 description:
 nav: true
-nav_order: 4
+nav_order: 5
 display_categories: [Recommendation, Natural Language Processing, Computer Vision and Multimedia]
 horizontal: false
 display_grids: false
