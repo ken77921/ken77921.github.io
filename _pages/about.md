@@ -18,9 +18,9 @@ title_order: 0
 #I am a postdoctoral research associate at UMass Amherst Center for Intelligent Information Retrieval (CIIR), advised by <a href="https://groups.cs.umass.edu/zamani/">Hamed Zamani</a>. 
 ---
 
-<p style="color: red;">In 2027 Fall, I will hire one PhD student who is interested in overcoming fundamental limitations of large language models (LLMs), discovering knowledge sturcture from text, using LLMs to improve education, and/or LLMs in general.
+<p style="color: red;">In 2027 Fall, I will hire one PhD student who is interested in overcoming fundamental limitations of large language models (LLMs), discovering knowledge sturcture from text, using LLMs to improve education, and/or LLMs in general.</p>
 
-If you are interested in working we me, please fill this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3EVCIkyi95y7uBLb1LoEUTbD1YuFUuoSjHkn6dUIjt-lBRw/viewform">form. I will check the form monthly and contact you if we are pontentially a good match.</p>
+<p style="color: red;">If you are interested in working we me, please fill this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3EVCIkyi95y7uBLb1LoEUTbD1YuFUuoSjHkn6dUIjt-lBRw/viewform">form. I will check the form monthly and contact you if we are pontentially a good match.</p>
 
 I am an Assistant Professor in the College of Information Science at the University of Arizona. 
 My research bridges machine learning (ML), natural language processing (NLP), and information retrieval (IR), focusing on <b>fundamentally narrowing the gap between large language models (LLMs) and human intelligence</b> without relying on scaling laws such as increasing model size or training data size. Toward that end, I am particularly interested in <br>
