@@ -7,12 +7,12 @@ nav: true
 nav_order: 2
 dropdown: true
 children: 
+    - title: Entailment Hierarchy
+      permalink: /projects/#header-entailment_hierarchy
     - title: Extrapolating the Distributions of an Infinitely Large Language Model
       permalink: /projects/#header-curve-extrapolation-LM
     - title: Multi-facet Embeddings for Language Modeling
       permalink: /projects/#header-multifacet-embedding-LM
-    - title: Creative Generation of Language Models
-      permalink: /projects/#header-creative-LM
     - title: Active Learning and Crowdsourcing
       permalink: /projects/#header-active-learning
     - title: Natural Language Processing
@@ -41,6 +41,107 @@ title_order: 5
 
 
 <!-- 02.22[CY] -->
+<hr>
+<div class="div-cat-header">
+  <h2 id="header-entailment_hierarchy">Entailment Hierarchy</h2>
+</div>
+
+<img src="../assets/img/entailment_hierarchy.png" class="img-responsive" width="100%">
+<p>What is a good way to organize knowledge or the text in a large corpus? In this project, we propose a data structure called entailment hierarchy, where each node entails their parents in a tree structure. We found that the structure has many applications. For example, it can provide more fine-grained description than taxonomy for organizing LLM prompts, synthesize more natural and challenging constraints than back-translation, and measure the specificity of LLM prompts better than the prompt length.
+</p>
+<br>
+
+
+<h4>Organizing LLM Prompts using Entailment Hierarchy</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/comprehend.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+        Understanding what kind of prompts users typically ask and how well an LLM performs on these prompt categories is crucial for LLM practitioners. The existing methods satisfy the demand by hierarchically clustering the user prompts and synthesizing the cluster names using an LLM to build a taxonomy. However, the cluster names from these methods are usually too general for humans to understand the detailed prompt distributions and identify the exact strengths and weaknesses of LLMs. 
+   </p>
+    <p> 
+        In this study, we propose COMPREHEND (<b>COM</b>mon <b>PR</b>ompt <b>E</b>ntailment <b>H</b>ierarchy for <b>E</b>valuation a<b>N</b>d <b>D</b>evelopment), which automatically constructs an ultra-fine-grained entailment hierarchy for the prompts. The entailment hierarchy replaces the cluster names in the taxonomy with sentences to provide more precise cluster descriptions for more fine-grained categorization.
+    </p>
+    <p> 
+         Compared with EvalTree, a state-of-the-art taxonomy construction method, COMPREHEND improves an entailment/faithfulness metric from 20.2 to 40.4 and an informative metric from 13.3 to 27.1 on average in WildBench. Our experiments also show that the weakness report generated based on our entailment hierarchy is much more informative than EvalTree in terms of predicting the response scores in the benchmark (<a href="">Paper</a>).
+    </p>
+  </div>
+</div>
+
+
+<h4>More Natural and Challenging Back-Translation for LLM Instruction Following</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/unspecific.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+        Large language models (LLMs) are increasingly expected to follow long lists of constraints in complex instructions, and synthesizing instructions from a reference document (i.e., back-translation) is a widely used method to measure/enhance LLMs’ ability to follow complex instructions. However, this method introduces a critical loophole: the constraint synthesis model copies text from the reference as a very specific constraint and the evaluated LLM trivially satisfies the constraint by copying its text in the response. 
+   </p>
+    <p> 
+        To address these issues, we propose UNSPECIFIC (<b>UN</b>covering <b>S</b>ummary-resistant, <b>P</b>aste-reducing, and <b>E</b>valuation-revised <b>C</b>onstraints to <b>I</b>mprove <b>F</b>ollowing <b>I</b>nstruction <b>C</b>hallenge), a novel framework that synthesizes constraints common to two similar reference articles to reduce copy-pasting, selectively hardens only trivially satisfied constraints to balance difficulty and naturalness, and evaluates satisfaction on both the generated article and its summary to penalize superficial instruction following. 
+    </p>
+    <p> 
+        Consequently, we built the UNSPECIFIC benchmark on news, story, and blog domains to analyze the copy-pasting behavior of LLMs. Our results show that our synthesized constraints are not only more challenging (e.g., the satisfaction rate of GPT-5 Mini drops from 90% to 78%) and natural (LLM win-rate gap improves by 30%) from a human perspective but also mitigate the copy-pasting. We also find that a large portion of constraints are satisfied superficially (i.e., not satisfied in the core narrative of the article) (<a href="https://openreview.net/pdf/fcf46f966b7374a7fae666dc69c55c9b92e72889.pdf">Paper</a>).
+    </p>
+  </div>
+</div>
+
+
+<h4>Inserting the Prompts into an Entailment Hierarchy</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/prompt2box.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+        To discover the weaknesses of LLMs, researchers often embed prompts into a vector space and cluster them to extract insightful patterns. However, vector embeddings primarily capture topical similarity. As a result, prompts that share a topic but differ in specificity, and consequently in difficulty, are often represented similarly, making fine-grained weakness analysis difficult. 
+   </p>
+    <p> 
+        To address this limitation, we propose Prompt2Box:, which embeds prompts into a box embedding space using a trained encoder. The encoder, trained on existing and synthesized datasets, outputs box embeddings that capture not only semantic similarity but also specificity relations between prompts (e.g., "writing an adventure story" is more specific than "writing a story". We further develop a novel dimension reduction technique for box embeddings to facilitate dataset visualization and comparison. specificity.
+    </p>
+    <p> 
+        Our experiments demonstrate that box embeddings consistently capture prompt specificity better than vector baselines and achieve up to 45% error reduction compared to the prompt length baseline. On the downstream task of creating hierarchical clustering trees for 17 LLMs from the UltraFeedback dataset, Prompt2Box: can identify 13.5% more LLM weaknesses than vector baselines and achieves an approximately 33% stronger correlation between hierarchical depth and instruction (<a href="https://openreview.net/pdf/fcf46f966b7374a7fae666dc69c55c9b92e72889.pdf">Paper</a>).
+    </p>
+  </div>
+</div>
+
+<h4>Automatically Measuring the Creativity of Large Language Models</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/CS4_horizontal.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      Evaluating the creativity of large language models (LLMs) in story writing is difficult because LLM-generated stories could seemingly look creative but be very similar to some existing stories in their huge and proprietary training corpus. To overcome this challenge, we introduce a novel benchmark dataset, CS4, with varying levels of prompt specificity. By increasing the number of requirements/constraints in the prompt, we can increase the prompt specificity and hinder LLMs from retelling high-quality narratives in their training data. Consequently, CS4 empowers us to indirectly measure the LLMs' creativity without human annotations.
+    </p>
+    <p>
+      Our experiments on LLaMA, Gemma, and Mistral not only highlight the creativity challenges LLMs face when dealing with highly specific prompts but also reveal that different LLMs perform very differently under different numbers of constraints and achieve different balances between the model's instruction-following ability and narrative coherence. Additionally, our experiments on OLMo suggest that Learning from Human Feedback (LHF) can help LLMs select better stories from their training data but has limited influence in boosting LLMs' ability to produce creative stories that are unseen in the training corpora. (<a href="https://arxiv.org/abs/2410.04197">Paper</a>, <a href="../assets/pdf/WNU_CS4_poster.pdf">Poster</a>).
+    </p>
+  </div>
+</div>
+
+
+<h4>Coarse-to-Fine Story Generation by Constructing Entailment Hierarchy</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/EH.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    When users want to write a story with a language model (LM) assistant such as ChatGPT, it is often very difficult to provide a prompt that clearly specifies all their interests. For the providers of LM assistants, it is also difficult to ensure their output stories come from a dataset without copyright concerns. Motivated by these limitations, we propose a coarse-to-fine (C2F) tree-based story generation framework, which is called C2F-StoryTree, where the LM iteratively generates more and more specific story prompts based on a user’s input prompt and the desired plot selected by the user. To realize our C2F-StoryTree framework, we propose an entailment hierarchy (EH) text structure, in which a more specific response entails more general prompt (e.g., a story entails a summary). We also propose novel annotation tasks, decoding methods, and a human-and-machine-in-the-loop procedure to minimize the annotation cost of building the text structure. We build an entailment hierarchy dataset on top of the story datasets with desired licenses and styles, on which the service providers can fine-tune or evaluate their LMs (<a href="https://www.amazon.science/publications/fine-to-coarse-entailment-hierarchy-construction-for-coarse-to-fine-story-generation">Paper</a>, <a href="../assets/pdf/HCI+NLP_entailment_hierarchy_talk.key">Slides</a>, <a href="../assets/pdf/NAACL_HCI_NLP_24_poster.pdf">Poster</a>). 
+  </div>
+</div>
+
+
+<br>
+
+
+  
+
+
+
 <div class="div-cat-header">
   <h2 id="header-curve-extrapolation-LM">Extrapolating the Distributions of an Infinitely-Large Language Model</h2>
 </div>
@@ -138,6 +239,19 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
   </div>
 </div>
 
+<h4>Predicting the Future Topics for Interactive Language Generation</h4>
+<div class="row row-grid">
+  <div class="col-6">
+    <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
+  </div>
+  <div class="col">
+    <p>
+      We design a framework that displays multiple candidate upcoming topics, of which a user can select a subset to guide the generation. Our framework consists of two components: (1) a method that produces a set of candidate topics by predicting the centers of word clusters in the possible continuations, and (2) a text generation model whose output adheres to the chosen topics. The training of both components is self-supervised, using only unlabeled text. Our experiments demonstrate that our topic options are better than those of standard clustering approaches, and our framework often generates fluent sentences related to the chosen topics, as judged by automated metrics and crowdsourced workers
+      (<a href="http://arxiv.org/abs/2103.15335">Paper</a>, <a href="https://github.com/iesl/interactive_LM">Code</a>, <a href="https://slideslive.com/38954487/changing-the-mind-of-transformers-for-topicallycontrollable-language-generation">Talk</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-slides.key" download="slides-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Slides</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-poster.pdf" download="poster-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Poster</a>).
+    </p>
+  </div>
+</div>
+
 
 <h4>Multi-facet Embeddings for Distantly Supervised Relation Extraction</h4>
 <div class="row row-grid">  
@@ -164,62 +278,11 @@ In addition to predicting the next word, we also use multiple CLS embeddings to 
   </div>
 </div>
 
-<br>
-
-
-<hr>
-<div class="div-cat-header">
-  <h2 id="header-creative-LM">Creative Generation of Language Models</h2>
-</div>
-<br>
-
-<h4>Automatically Measuring the Creativity of Large Language Models</h4>
-<div class="row row-grid">
-  <div class="col-6">
-    <img src="../assets/img/CS4.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <p>
-      Evaluating the creativity of large language models (LLMs) in story writing is difficult because LLM-generated stories could seemingly look creative but be very similar to some existing stories in their huge and proprietary training corpus. To overcome this challenge, we introduce a novel benchmark dataset, CS4, with varying levels of prompt specificity. By increasing the number of requirements/constraints in the prompt, we can increase the prompt specificity and hinder LLMs from retelling high-quality narratives in their training data. Consequently, CS4 empowers us to indirectly measure the LLMs' creativity without human annotations.
-    </p>
-    <p>
-      Our experiments on LLaMA, Gemma, and Mistral not only highlight the creativity challenges LLMs face when dealing with highly specific prompts but also reveal that different LLMs perform very differently under different numbers of constraints and achieve different balances between the model's instruction-following ability and narrative coherence. Additionally, our experiments on OLMo suggest that Learning from Human Feedback (LHF) can help LLMs select better stories from their training data but has limited influence in boosting LLMs' ability to produce creative stories that are unseen in the training corpora. (<a href="https://arxiv.org/abs/2410.04197">Paper</a>, <a href="../assets/pdf/WNU_CS4_poster.pdf">Poster</a>).
-    </p>
-  </div>
-</div>
-<br>
-
-<h4>Coarse-to-Fine Story Generation by Constructing Entailment Hierarchy</h4>
-<div class="row row-grid">
-  <div class="col-6">
-    <img src="../assets/img/EH.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    When users want to write a story with a language model (LM) assistant such as ChatGPT, it is often very difficult to provide a prompt that clearly specifies all their interests. For the providers of LM assistants, it is also difficult to ensure their output stories come from a dataset without copyright concerns. Motivated by these limitations, we propose a coarse-to-fine (C2F) tree-based story generation framework, which is called C2F-StoryTree, where the LM iteratively generates more and more specific story prompts based on a user’s input prompt and the desired plot selected by the user. To realize our C2F-StoryTree framework, we propose an entailment hierarchy (EH) text structure, in which a more specific response entails more general prompt (e.g., a story entails a summary). We also propose novel annotation tasks, decoding methods, and a human-and-machine-in-the-loop procedure to minimize the annotation cost of building the text structure. We build an entailment hierarchy dataset on top of the story datasets with desired licenses and styles, on which the service providers can fine-tune or evaluate their LMs (<a href="https://www.amazon.science/publications/fine-to-coarse-entailment-hierarchy-construction-for-coarse-to-fine-story-generation">Paper</a>, <a href="../assets/pdf/HCI+NLP_entailment_hierarchy_talk.key">Slides</a>, <a href="../assets/pdf/NAACL_HCI_NLP_24_poster.pdf">Poster</a>). 
-  </div>
-</div>
-<br>
-
-
-  
-
-
-
-<h4>Predicting the Future Topics for Interactive Language Generation</h4>
-<div class="row row-grid">
-  <div class="col-6">
-    <img src="../assets/img/proj1-nlp-interactive_LM_first_figure.png" class="img-responsive" width="100%">
-  </div>
-  <div class="col">
-    <p>
-      We design a framework that displays multiple candidate upcoming topics, of which a user can select a subset to guide the generation. Our framework consists of two components: (1) a method that produces a set of candidate topics by predicting the centers of word clusters in the possible continuations, and (2) a text generation model whose output adheres to the chosen topics. The training of both components is self-supervised, using only unlabeled text. Our experiments demonstrate that our topic options are better than those of standard clustering approaches, and our framework often generates fluent sentences related to the chosen topics, as judged by automated metrics and crowdsourced workers
-      (<a href="http://arxiv.org/abs/2103.15335">Paper</a>, <a href="https://github.com/iesl/interactive_LM">Code</a>, <a href="https://slideslive.com/38954487/changing-the-mind-of-transformers-for-topicallycontrollable-language-generation">Talk</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-slides.key" download="slides-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Slides</a>, <a href="../assets/pdf/proj1-nlp-interactive_LM-EACL_interactive_LM-poster.pdf" download="poster-eacl2021-Changing the Mind of Transformers for Topically-Controllable Language Generation">Poster</a>).
-    </p>
-  </div>
-</div>
 
 
 <br>
+
+
 
 
 <hr>
