@@ -29,4 +29,6 @@ Previously, I was a postdoctoral research associate at UMass Amherst Center for 
 
 <p style="color: red; font-weight: bold;">In 2027 Fall, I will hire one PhD student who is interested in overcoming fundamental limitations of LLMs (e.g., creativity and factuality), discovering knowledge structure from text, using LLMs to improve education or scientific document analyses, and/or LLMs in general.</p>
 
-<p style="color: red; font-weight: bold;">If you are interested in working me, please fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3EVCIkyi95y7uBLb1LoEUTbD1YuFUuoSjHkn6dUIjt-lBRw/viewform">form</a>. I will check the form monthly and contact you if we are potentially a good match.</p>
+<p style="color: red; font-weight: bold;">If you are interested in working me in your PhD journey, please fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3EVCIkyi95y7uBLb1LoEUTbD1YuFUuoSjHkn6dUIjt-lBRw/viewform">form</a>. I will check the form before the application deadline and contact you if we are potentially a good match.</p>
+
+<p style="color: red; font-weight: bold;">If you are interested in working with me as an unpaid research intern, please send me your resume/CV to my arizona email address (MyFirstName@arizona.edu). I will contact you if I have some projects that fit your background/interest.
